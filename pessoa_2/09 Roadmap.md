@@ -27,7 +27,7 @@ Conceitos aplicados conforme o material das aulas, a [Decisão 1](../planejament
 | **Ritmo sustentável** | **Recesso** sem promessa de construção ou entrega funcional; retomada explícita na Entrega 1. | Aula 18 (princ. 8) + Decisão 4 |
 | **Depois / CR** | Itens Z-01, Z-02 e Z-07 aparecem **após o go-live**, **sem data** nesta linha de tempo. | Artefato 02 + backlog §7 |
 
-Este artefato **não** define Sprint, Sprint Backlog nem eventos Scrum: serão tratados em aula futura (plano de ensino, Etapa 3), como já registrado no backlog.
+Este artefato **não** define Sprint, Sprint Backlog nem eventos Scrum: serão tratados em aula futura (Aula 20; plano de ensino, Etapa 3), como já registrado no [08 Product Backlog](08%20Product%20Backlog.md).
 
 ## 3. Visão da linha do tempo (14 semanas comerciais)
 
@@ -59,9 +59,9 @@ gantt
 | 1–3 | 26/11–16/12/2026 | **Descoberta e desenho funcional** | Entendimento, decisões, desenho; **sem** incremento de produto aceito |
 | 4 | 17–23/12/2026 | **Protótipo** (UX/jornadas) | Feedback e validação visual; **não** conta como Entrega funcional |
 | 5–6 | 24/12/2026–06/01/2027 | **Recesso** | Sem construção nem entrega prometida (ver §6) |
-| 7 | 07–13/01/2027 | **Entrega funcional 1** | **Incremento** PB-01 a PB-09 + aceite (5 dias úteis, PDF 7.4) |
+| 7 | 07–13/01/2027 | **Entrega funcional 1** | **Incremento** PB-01 a PB-09 (incl. sub-IDs 03a–c, 05a–b) + aceite (5 dias úteis, PDF 7.4) |
 | 8–9 | 14–27/01/2027 | *(Construção Entrega 2 — não é marco vendido)* | Desenvolvimento interno até disponibilizar Entrega 2 |
-| 10 | 28/01–03/02/2027 | **Entrega funcional 2** | **Incremento** PB-10 a PB-15 + aceite |
+| 10 | 28/01–03/02/2027 | **Entrega funcional 2** | **Incremento** PB-10a a PB-15 (sub-IDs de recepção e portal) + aceite |
 | 11–12 | 04–17/02/2027 | **Homologação integrada** | Testes e aceite do conjunto; sem novos itens de backlog |
 | 13 | 18–24/02/2027 | **Preparação de produção** | Ambiente, treinamento, carga em produção |
 | 14 | 25/02–03/03/2027 | **Go-live** | Operação em **03/03/2027** nas quatro unidades |
@@ -76,7 +76,7 @@ O contrato fixa **aceite da Entrega 1** a partir de **07/01/2027**. A construç�
 | Atividade de projeto (escopo do projeto — artefato 02 §4) | Onde no roadmap | Grupos de backlog |
 |---|---|---|
 | Descoberta e desenho funcional | Semanas 1–3 | Refino e dependências de PB-01 a PB-09; premissas P-01 a P-08 |
-| UX/UI e protótipo | Semana 4 | Jornadas de agenda, portal e recepção (apoio a PB-06, PB-10, PB-12) |
+| UX/UI e protótipo | Semana 4 | Jornadas de agenda, portal e recepção (apoio a PB-06, PB-10a–10c, PB-12a–12d) |
 | Desenvolvimento Entrega 1 | Semanas 1–4 (+ retomada pós-recesso se necessário) | **Implementação** PB-01 a PB-09 até ambiente de homologação da Entrega 1 |
 | Aceite Entrega 1 | Semana 7 | Verificação dos critérios dos cartões PB-01 a PB-09 |
 
@@ -91,10 +91,10 @@ Rastreio: cada ID aponta para o [08 Product Backlog](08%20Product%20Backlog.md).
 | Grupo | Itens PB | Foco |
 |---|---|---|
 | Governança e acesso | PB-01 (H), PB-02 (H) | Matriz de perfis (P-04), diretriz de auditoria |
-| Estrutura clínica | PB-03, PB-04 | Unidades (quatro em operação + Indaiatuba cadastrável — Z-06), salas (P-07) |
-| Pacientes e agenda (desenho) | PB-05, PB-06, PB-07, PB-08 | Regras clínicas (P-05, P-06), encaixe (Z-03) |
+| Estrutura clínica | PB-03a, PB-03b, PB-03c, PB-04 | Unidades (quatro em operação + Indaiatuba cadastrável — Z-06), salas (P-07) |
+| Pacientes e agenda (desenho) | PB-05a, PB-05b, PB-06, PB-07, PB-08 | Regras clínicas (P-05, P-06), encaixe (Z-03) |
 | Dados | PB-09 (H) | Layout de carga (P-02) |
-| Entrega 2 (antecipação de risco) | PB-12, PB-13, PB-15 | Política de cancelamento (P-06), canal (P-03), API VidaFin (P-01) |
+| Entrega 2 (antecipação de risco) | PB-12a–PB-12d, PB-13, PB-15 | Política de cancelamento (P-06), canal (P-03), API VidaFin (P-01) |
 
 **Premissas com data-limite nesta janela (artefato 02 §6):**
 
@@ -108,8 +108,8 @@ Rastreio: cada ID aponta para o [08 Product Backlog](08%20Product%20Backlog.md).
 
 | Grupo | Itens PB | Foco |
 |---|---|---|
-| Experiência agenda e recepção | PB-06, PB-07, PB-10 (protótipo) | Validar fluxo interno antes da construção pesada de E2 |
-| Portal (protótipo) | PB-12 (protótipo) | Validar jornada do paciente; cancelamento conforme P-06 quando fechado |
+| Experiência agenda e recepção | PB-06, PB-07, PB-10a–PB-10c (protótipo) | Validar fluxo interno antes da construção pesada de E2 |
+| Portal (protótipo) | PB-12a–PB-12d (protótipo) | Validar jornada do paciente; cancelamento conforme P-06 quando fechado |
 | Gestão (protótipo) | PB-14 (protótipo) | Macros e filtros acordados com Paula |
 
 **Saída esperada:** feedback para Developers e UX; **não** substitui critérios de aceite das entregas funcionais.
@@ -120,8 +120,8 @@ Rastreio: cada ID aponta para o [08 Product Backlog](08%20Product%20Backlog.md).
 
 | Grupo | Itens PB |
 |---|---|
-| Administração e segurança | PB-01, PB-02, PB-03, PB-04 |
-| Pacientes | PB-05 |
+| Administração e segurança | PB-01, PB-02, PB-03a, PB-03b, PB-03c, PB-04 |
+| Pacientes | PB-05a, PB-05b |
 | Agenda | PB-06, PB-07, PB-08 |
 | Carga inicial | PB-09 |
 
@@ -133,9 +133,9 @@ Janela **não vendida** como marco separado; concentra o desenvolvimento entre o
 
 | Grupo | Itens PB |
 |---|---|
-| Recepção e fila | PB-10 |
+| Recepção e fila | PB-10a, PB-10b, PB-10c |
 | Atendimento administrativo | PB-11 |
-| Portal do paciente | PB-12 |
+| Portal do paciente | PB-12a, PB-12b, PB-12c, PB-12d |
 | Notificações | PB-13 (baseline e-mail se P-03 não fechar canal extra) |
 | Gestão | PB-14 |
 | Integração VidaFin | PB-15 (condicionado a P-01) |
@@ -146,7 +146,7 @@ Janela **não vendida** como marco separado; concentra o desenvolvimento entre o
 
 | Grupo | Itens PB |
 |---|---|
-| Mesmos de §4.4 | PB-10 a PB-15 (aceite conjunto na janela) |
+| Mesmos de §4.4 | PB-10a a PB-15 (aceite conjunto na janela) |
 
 **Parcela comercial associada (PDF 5.3):** homologação integrada — alinhada à sequência após esta entrega.
 
@@ -211,18 +211,20 @@ Exclusões permanentes do contrato (app nativo, TISS, telemedicina, cobrança on
 
 | PB | Descoberta | Protótipo | E1 construção* | E1 aceite | E2 construção | E2 aceite | Homol. | Prep. | Go-live |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| PB-01–09 | R / D | P† | C | A | — | — | H | — | ✓ |
-| PB-10–15 | R | P† | — | — | C | A | H | — | ✓ |
+| PB-01–09* | R / D | P† | C | A | — | — | H | — | ✓ |
+| PB-10a–15* | R | P† | — | — | C | A | H | — | ✓ |
 
 Legenda: **R** refinamento · **D** desenho · **P** protótipo · **C** construção · **A** aceite de entrega · **H** homologação integrada · **✓** em operação · † foco parcial nos fluxos de E2.
+
+\* Faixas incluem sub-IDs (ex.: PB-03a–c, PB-05a–b, PB-10a–c, PB-12a–d); detalhamento em [08 Product Backlog](08%20Product%20Backlog.md) §4.
 
 \* Construção E1 conforme §3.1 (semanas 1–4 + retomada pós-recesso se a Pessoa 3 alocar assim).
 
 ## 8. Coerência com backlog, cronograma e demais artefatos
 
-- **[08 Product Backlog](08%20Product%20Backlog.md):** PB-01 a PB-15 cobrem o go-live; ordem e fronteira inalteradas neste roadmap.
+- **[08 Product Backlog](08%20Product%20Backlog.md):** cartões PB-01 a PB-15 (com sub-IDs) cobrem o go-live; ordem e fronteira inalteradas neste roadmap.
 - **[02 Escopo, Premissas e Restrições](02%20Escopo%20Premissas%20e%20Restricoes.md):** marcos da §4 (escopo do projeto) e datas da §7.1.
-- **Pessoa 3 — [04 Cronograma](../planejamento/pessoa-3-prazo-e-custos.md):** deve derivar atividades, predecessoras, capacidade (recesso, caminho crítico do backend) e **mesmas datas** da tabela §3; o vão 14–27/01 é onde cabem horas de PB-10 a PB-15.
+- **Pessoa 3 — [04 Cronograma](../planejamento/pessoa-3-prazo-e-custos.md):** deve derivar atividades, predecessoras, capacidade (recesso, caminho crítico do backend) e **mesmas datas** da tabela §3; o vão 14–27/01 é onde cabem horas de PB-10a a PB-15.
 - **Pessoa 4:** premissas com data (§4.1) e compressão pós-recesso alimentam riscos (ex. R12 na matriz preliminar).
 - **Pessoa 1:** validações e comunicação no recesso e nas janelas de aceite.
 - **Revisão cruzada:** cada capacidade do go-live deve aparecer em Escopo → Backlog → **Roadmap** → Cronograma → Custos → Riscos → Qualidade → Go-live.

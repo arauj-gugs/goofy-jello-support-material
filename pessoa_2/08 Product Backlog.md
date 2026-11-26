@@ -18,10 +18,12 @@ Conceitos aplicados conforme o material das aulas e o guia da Pessoa 2:
 | Conceito | Definição aplicada | Fonte |
 |---|---|---|
 | **Product Backlog** | Lista ordenada e viva do trabalho necessário para gerar valor no produto; transparência do que está dentro da linha de base do go-live. | Aula 20 |
+| **Cartão de trabalho** | `Como [papel], quero [resultado].` Critérios observáveis; prioridade; responsável; dependências; evidências. Item grande vira histórias menores verificáveis (fatiamento). | Aula 19 |
 | **Item de trabalho** | Funcionalidade ou habilitador com resultado verificável, critérios de aceitação e dependências explícitas. | Aula 19 |
 | **Prioridade** | Posição na lista: itens acima podem ser iniciados antes; reordenação do que ainda não iniciou considera valor, risco e dependência. | Aula 19 + Decisão 3 |
 | **Critério de aceite** | Verificações observáveis que definem quando o item está concluído no ambiente acordado. | Aula 19 + PDF 6.5 |
-| **Incremento** | Software utilizável nas Entregas funcionais 1 e 2 vendidas (seção 9); não confundir com Sprint Backlog (aula futura). | Aula 18 + Aula 20 |
+| **Incremento** | Software utilizável nas Entregas funcionais 1 e 2 vendidas (seção 9); não confundir com Sprint Backlog (aula futura — Aula 20). | Aula 18 + Aula 20 |
+| **Sprint / eventos Scrum** | **Não** definidos neste artefato; Sprint, Sprint Backlog, eventos e Incremento operacional serão aprofundados em aula futura (Aula 20, plano de ensino Etapa 3). | Aula 20 |
 | **Bloqueio** | Impedimento externo ou pendência do cliente que impede verificar o critério; permanece visível com causa, data e responsável. | Aula 19 |
 | **Habilitador** | Item necessário para outros critérios serem testáveis (perfis, auditoria, carga, integração). | Guia Pessoa 2 + issue #12 |
 | **Depois / CR** | Itens da zona cinzenta adiados; entram só por [Fluxo de Mudança](../pessoa_4/Fluxo%20de%20Mudança.md). | Aula 07 + artefato 02 |
@@ -38,19 +40,27 @@ Na janela **07 a 13/01/2027** (seção 9), usuários internos com perfil adequad
 |---:|---|---|---|---|---|
 | 1 | PB-01 | Administração | 1 | — | Sim |
 | 2 | PB-02 | Administração / 6.4 | 1 | PB-01 | Sim |
-| 3 | PB-03 | Administração | 1 | PB-01; P-07 | — |
-| 4 | PB-04 | Administração | 1 | PB-03 | — |
-| 5 | PB-05 | Pacientes | 1 | PB-01; P-02 (carga) | — |
-| 6 | PB-06 | Agenda | 1 | PB-03, PB-04, P-07 | — |
-| 7 | PB-07 | Agenda | 1 | PB-05, PB-06 | — |
-| 8 | PB-08 | Agenda | 1 | PB-06, PB-07; Z-03 | — |
-| 9 | PB-09 | Dados | 1 | PB-05, PB-04; **P-02** | Sim |
-| 10 | PB-10 | Recepção | 2 | PB-05, PB-07 | — |
-| 11 | PB-11 | Atendimento | 2 | PB-10 | — |
-| 12 | PB-12 | Portal do paciente | 2 | PB-06, PB-07; **P-06** | — |
-| 13 | PB-13 | Notificações | 2 | PB-07, PB-12; P-03 (canal) | — |
-| 14 | PB-14 | Gestão | 2 | PB-07, PB-10 | — |
-| 15 | PB-15 | Integração VidaFin | 2 | PB-11; **P-01** | Sim |
+| 3 | PB-03a | Administração | 1 | PB-01 | — |
+| 4 | PB-03b | Administração | 1 | PB-03a; **P-07** | — |
+| 5 | PB-03c | Administração | 1 | PB-03b | — |
+| 6 | PB-04 | Administração | 1 | PB-03a, PB-03b | — |
+| 7 | PB-05a | Pacientes | 1 | PB-01 | — |
+| 8 | PB-05b | Pacientes | 1 | PB-05a | — |
+| 9 | PB-06 | Agenda | 1 | PB-03b, PB-03c, PB-04; **P-07** | — |
+| 10 | PB-07 | Agenda | 1 | PB-05a, PB-06 | — |
+| 11 | PB-08 | Agenda | 1 | PB-06, PB-07; Z-03 | — |
+| 12 | PB-09 | Dados | 1 | PB-05a, PB-04; **P-02** | Sim |
+| 13 | PB-10a | Recepção | 2 | PB-05a, PB-07 | — |
+| 14 | PB-10b | Recepção | 2 | PB-10a, PB-05b | — |
+| 15 | PB-10c | Recepção | 2 | PB-10b | — |
+| 16 | PB-11 | Atendimento | 2 | PB-10a, PB-10b | — |
+| 17 | PB-12a | Portal do paciente | 2 | PB-06, PB-07 | — |
+| 18 | PB-12b | Portal do paciente | 2 | PB-12a, PB-07 | — |
+| 19 | PB-12c | Portal do paciente | 2 | PB-12b | — |
+| 20 | PB-12d | Portal do paciente | 2 | PB-12c; **P-06** | — |
+| 21 | PB-13 | Notificações | 2 | PB-07, PB-12b; P-03 (canal) | — |
+| 22 | PB-14 | Gestão | 2 | PB-07, PB-10a | — |
+| 23 | PB-15 | Integração VidaFin | 2 | PB-11; **P-01** | Sim |
 
 ## 5. Cartões — itens dentro do go-live
 
@@ -73,6 +83,11 @@ Como **administrador da Vida+**, quero **cadastrar perfis e usuários com permis
 
 **Dependência:** nenhum item anterior. Bloqueio possível se **P-04** (lista de perfis e usuários-chave) não estiver aprovada até **09/12/2026** — causa: desenho de acesso incompleto; próxima ação: Paula Ribeiro + Marcelo Viana formalizarem matriz.
 
+**Prioridade:** 1 (ordenação acordada com Bruno Ferraz — Decisão 3).  
+**Responsável e colaboradores:** A definir na execução.  
+**Datas:** Entrada em fluxo: — · Conclusão: —  
+**Evidências:** Homologação na entrega; registro para Natália (QA), conforme §6.
+
 ---
 
 #### PB-02 · Auditoria de acesso e alteração
@@ -90,22 +105,74 @@ Como **gestor de projetos / segurança da informação**, quero **registrar even
 
 **Dependência:** PB-01.
 
+**Prioridade:** 2 (ordenação acordada com Bruno Ferraz — Decisão 3).  
+**Responsável e colaboradores:** A definir na execução.  
+**Datas:** Entrada em fluxo: — · Conclusão: —  
+**Evidências:** Homologação na entrega; registro para Natália (QA), conforme §6.
+
 ---
 
-#### PB-03 · Unidades, especialidades, salas, tipos de atendimento e parâmetros
+#### PB-03a · Cadastro de unidades
 
 **Módulo:** Administração (artefato 02 §3; PDF 6.2) · **Entrega:** 1
 
-Como **coordenador administrativo**, quero **configurar unidades, especialidades, salas, tipos de atendimento e parâmetros gerais** para **preparar a agenda real das quatro unidades em operação**.
+Como **coordenador administrativo**, quero **cadastrar e manter unidades ativas** para **identificar as quatro unidades em operação e preparar a estrutura da clínica**.
 
 **Critérios:**
 
-- Cadastrar unidade ativa com identificação e status; permitir cadastro da unidade Indaiatuba **sem** exigir agenda ou carga operacional (Z-06).
-- Cadastrar especialidade, sala/recurso por unidade e tipo de atendimento vinculados à unidade correta.
-- Parametrizar ao menos um parâmetro geral acordado no desenho (ex.: tolerância de agenda ou identificação padrão).
-- Cenário Anexo C — Cadastros: criar/editar unidade e especialidade sem defeito bloqueador.
+- Criar e editar unidade com identificação e status ativo/inativo.
+- Permitir cadastro da unidade Indaiatuba **sem** exigir agenda ou carga operacional (Z-06).
+- Cenário Anexo C — Cadastros: criar/editar unidade sem defeito bloqueador.
 
-**Dependência:** PB-01; **P-07** (dados de salas e recursos) até **16/12/2026**. Bloqueio: planilha de salas incompleta — Paula Ribeiro entrega layout padronizado.
+**Dependência:** PB-01.
+
+**Prioridade:** 3 (ordenação acordada com Bruno Ferraz — Decisão 3).  
+**Responsável e colaboradores:** A definir na execução.  
+**Datas:** Entrada em fluxo: — · Conclusão: —  
+**Evidências:** Homologação na entrega; registro para Natália (QA), conforme §6.
+
+---
+
+#### PB-03b · Especialidades, salas e tipos de atendimento
+
+**Módulo:** Administração (artefato 02 §3; PDF 6.2) · **Entrega:** 1
+
+Como **coordenador administrativo**, quero **cadastrar especialidades, salas/recursos e tipos de atendimento por unidade** para **vincular corretamente a estrutura física e clínica de cada unidade**.
+
+**Critérios:**
+
+- Cadastrar especialidade vinculada à unidade correta.
+- Cadastrar sala/recurso por unidade conforme desenho funcional.
+- Cadastrar tipo de atendimento vinculado à unidade e à especialidade acordada.
+- Cenário Anexo C — Cadastros: criar/editar especialidade sem defeito bloqueador.
+
+**Dependência:** PB-03a; **P-07** (dados de salas e recursos) até **16/12/2026**. Bloqueio: planilha de salas incompleta — Paula Ribeiro entrega layout padronizado.
+
+**Prioridade:** 4 (ordenação acordada com Bruno Ferraz — Decisão 3).  
+**Responsável e colaboradores:** A definir na execução.  
+**Datas:** Entrada em fluxo: — · Conclusão: —  
+**Evidências:** Homologação na entrega; registro para Natália (QA), conforme §6.
+
+---
+
+#### PB-03c · Parâmetro geral de administração
+
+**Módulo:** Administração (artefato 02 §3; PDF 6.2) · **Entrega:** 1
+
+Como **coordenador administrativo**, quero **parametrizar ao menos um parâmetro geral acordado no desenho** para **padronizar comportamento do sistema nas unidades**.
+
+**Critérios:**
+
+- Definir e persistir ao menos um parâmetro geral acordado (ex.: tolerância de agenda ou identificação padrão).
+- Alteração do parâmetro reflete nas telas de agenda ou cadastro que o desenho associar ao parâmetro.
+- Verificação em homologação com perfil administrativo (PDF 6.5 — funcional).
+
+**Dependência:** PB-03b.
+
+**Prioridade:** 5 (ordenação acordada com Bruno Ferraz — Decisão 3).  
+**Responsável e colaboradores:** A definir na execução.  
+**Datas:** Entrada em fluxo: — · Conclusão: —  
+**Evidências:** Homologação na entrega; registro para Natália (QA), conforme §6.
 
 ---
 
@@ -122,24 +189,54 @@ Como **coordenador administrativo**, quero **cadastrar profissionais vinculados 
 - Listar e filtrar profissionais por unidade e especialidade.
 - Cenário Anexo C — Cadastros: criar/editar profissional.
 
-**Dependência:** PB-03.
+**Dependência:** PB-03a, PB-03b.
+
+**Prioridade:** 6 (ordenação acordada com Bruno Ferraz — Decisão 3).  
+**Responsável e colaboradores:** A definir na execução.  
+**Datas:** Entrada em fluxo: — · Conclusão: —  
+**Evidências:** Homologação na entrega; registro para Natália (QA), conforme §6.
 
 ---
 
-#### PB-05 · Cadastro de pacientes
+#### PB-05a · Cadastrar paciente administrativo
 
 **Módulo:** Pacientes (artefato 02 §3; PDF 6.2; Anexo B) · **Entrega:** 1
 
-Como **recepcionista**, quero **cadastrar e manter dados administrativos do paciente** para **agendar e localizar o paciente sem prontuário clínico no escopo**.
+Como **recepcionista**, quero **registrar um novo paciente com dados administrativos** para **agendar e localizar o paciente sem prontuário clínico no escopo**.
 
 **Critérios:**
 
 - Registrar paciente com contatos, documentos, responsável (quando aplicável), convênio **informado** (sem TISS/autorização) e observações administrativas.
-- Editar dados cadastrais preservando histórico de agendamentos quando PB-07 existir (consulta somente leitura de compromissos passados).
 - **Não** exibir conteúdo clínico detalhado nem prontuário completo (fora do escopo, Anexo B).
-- Cenário Anexo C — Cadastros: criar/editar paciente.
+- Cenário Anexo C — Cadastros: criar paciente.
 
 **Dependência:** PB-01. Carga via PB-09 depende de **P-02** (layout e amostra até **16/12/2026**).
+
+**Prioridade:** 7 (ordenação acordada com Bruno Ferraz — Decisão 3).  
+**Responsável e colaboradores:** A definir na execução.  
+**Datas:** Entrada em fluxo: — · Conclusão: —  
+**Evidências:** Homologação na entrega; registro para Natália (QA), conforme §6.
+
+---
+
+#### PB-05b · Atualizar cadastro administrativo do paciente
+
+**Módulo:** Pacientes (artefato 02 §3; PDF 6.2; Anexo B) · **Entrega:** 1
+
+Como **recepcionista**, quero **editar dados administrativos do paciente já cadastrado** para **manter cadastros corretos sem perder vínculo com agendamentos**.
+
+**Critérios:**
+
+- Editar dados cadastrais permitidos pelo perfil preservando histórico de agendamentos quando PB-07 existir (consulta somente leitura de compromissos passados).
+- **Não** exibir conteúdo clínico detalhado nem prontuário completo (fora do escopo, Anexo B).
+- Cenário Anexo C — Cadastros: editar paciente.
+
+**Dependência:** PB-05a.
+
+**Prioridade:** 8 (ordenação acordada com Bruno Ferraz — Decisão 3).  
+**Responsável e colaboradores:** A definir na execução.  
+**Datas:** Entrada em fluxo: — · Conclusão: —  
+**Evidências:** Homologação na entrega; registro para Natália (QA), conforme §6.
 
 ---
 
@@ -156,7 +253,12 @@ Como **coordenador de agenda / recepção**, quero **definir grade, disponibilid
 - Consultar disponibilidade considerando bloqueios e duração do tipo de atendimento.
 - Cenários Anexo C — Agenda: abrir agenda, bloquear período, consultar disponibilidade.
 
-**Dependência:** PB-03, PB-04; **P-07**.
+**Dependência:** PB-03b, PB-03c, PB-04; **P-07**.
+
+**Prioridade:** 9 (ordenação acordada com Bruno Ferraz — Decisão 3).  
+**Responsável e colaboradores:** A definir na execução.  
+**Datas:** Entrada em fluxo: — · Conclusão: —  
+**Evidências:** Homologação na entrega; registro para Natália (QA), conforme §6.
 
 ---
 
@@ -173,7 +275,12 @@ Como **recepcionista**, quero **agendar, cancelar e remarcar consultas pela equi
 - Remarcar pela equipe para outro horário disponível, preservando rastro do compromisso anterior.
 - Fluxos da Entrega 1 executados sem defeito bloqueador (PDF 6.5); homologação da entrega conforme cenários prioritários de Agenda (Anexo C).
 
-**Dependência:** PB-05, PB-06. Regras de cancelamento/remarcação pela equipe alinhadas a **P-06** quando fechadas até **16/12/2026**.
+**Dependência:** PB-05a, PB-06. Regras de cancelamento/remarcação pela equipe alinhadas a **P-06** quando fechadas até **16/12/2026**.
+
+**Prioridade:** 10 (ordenação acordada com Bruno Ferraz — Decisão 3).  
+**Responsável e colaboradores:** A definir na execução.  
+**Datas:** Entrada em fluxo: — · Conclusão: —  
+**Evidências:** Homologação na entrega; registro para Natália (QA), conforme §6.
 
 ---
 
@@ -192,6 +299,11 @@ Como **usuário com permissão de encaixe**, quero **incluir encaixe em agenda c
 
 **Dependência:** PB-06, PB-07.
 
+**Prioridade:** 11 (ordenação acordada com Bruno Ferraz — Decisão 3).  
+**Responsável e colaboradores:** A definir na execução.  
+**Datas:** Entrada em fluxo: — · Conclusão: —  
+**Evidências:** Homologação na entrega; registro para Natália (QA), conforme §6.
+
 ---
 
 #### PB-09 · Carga inicial essencial de pacientes e profissionais
@@ -204,10 +316,15 @@ Como **coordenador de implantação**, quero **importar cadastros essenciais no 
 
 - Importar arquivo no layout fornecido pela Goofy Jello após **P-02** (amostra e layout até **16/12/2026**).
 - Rejeitar ou sinalizar registros fora do layout com relatório de erros.
-- Após importação, paciente e profissional importados aparecem nas telas de PB-05 e PB-04 e podem ser usados em PB-07.
+- Após importação, paciente e profissional importados aparecem nas telas de PB-05a e PB-04 e podem ser usados em PB-07.
 - Carga conferida por **amostragem** pelo cliente (PDF 6.5 — dados); sem promessa de migração ampla nem saneamento extenso (Z-05 **fora**).
 
-**Dependência:** PB-04, PB-05. **Bloqueio possível:** P-02 não atendida — item sai da linha de base ou reduz escopo validável (premissa artefato 02). A carga final de produção na semana 13 é atividade de projeto, não um segundo item de produto neste backlog.
+**Dependência:** PB-04, PB-05a. **Bloqueio possível:** P-02 não atendida — item sai da linha de base ou reduz escopo validável (premissa artefato 02). A carga final de produção na semana 13 é atividade de projeto, não um segundo item de produto neste backlog.
+
+**Prioridade:** 12 (ordenação acordada com Bruno Ferraz — Decisão 3).  
+**Responsável e colaboradores:** A definir na execução.  
+**Datas:** Entrada em fluxo: — · Conclusão: —  
+**Evidências:** Homologação na entrega; registro para Natália (QA), conforme §6.
 
 ---
 
@@ -215,21 +332,65 @@ Como **coordenador de implantação**, quero **importar cadastros essenciais no 
 
 ---
 
-#### PB-10 · Recepção — agenda do dia, check-in e fila
+#### PB-10a · Agenda do dia na recepção
 
 **Módulo:** Recepção (artefato 02 §3; PDF 6.2) · **Entrega:** 2
 
-Como **recepcionista**, quero **ver a agenda do dia, confirmar chegada e organizar a fila de atendimento** para **reduzir fila física e retrabalho no balcão**.
+Como **recepcionista**, quero **consultar a agenda do dia por unidade** para **localizar compromissos e organizar o balcão**.
 
 **Critérios:**
 
 - Exibir agenda do dia por unidade com filtros mínimos (profissional/especialidade, conforme desenho).
+- Cenário Anexo C — Recepção: fluxo de localização do agendamento do dia.
+
+**Dependência:** PB-05a, PB-07 (agenda populada).
+
+**Prioridade:** 13 (ordenação acordada com Bruno Ferraz — Decisão 3).  
+**Responsável e colaboradores:** A definir na execução.  
+**Datas:** Entrada em fluxo: — · Conclusão: —  
+**Evidências:** Homologação na entrega; registro para Natália (QA), conforme §6.
+
+---
+
+#### PB-10b · Check-in e cadastro na recepção
+
+**Módulo:** Recepção (artefato 02 §3; PDF 6.2) · **Entrega:** 2
+
+Como **recepcionista**, quero **confirmar a chegada do paciente e atualizar o cadastro administrativo permitido** para **registrar presença e corrigir dados no balcão**.
+
+**Critérios:**
+
 - Buscar paciente e registrar check-in vinculado ao agendamento do dia.
 - Atualizar cadastro administrativo a partir da recepção sem violar permissão do perfil.
-- Alterar status de chegada e visualizar fila ordenada conforme regra acordada.
-- Cenários Anexo C — Recepção: localizar paciente, confirmar chegada, atualizar cadastro, acompanhar fila.
+- Cenários Anexo C — Recepção: localizar paciente, confirmar chegada, atualizar cadastro.
 
-**Dependência:** PB-05, PB-07 (agenda populada).
+**Dependência:** PB-10a; PB-05b.
+
+**Prioridade:** 14 (ordenação acordada com Bruno Ferraz — Decisão 3).  
+**Responsável e colaboradores:** A definir na execução.  
+**Datas:** Entrada em fluxo: — · Conclusão: —  
+**Evidências:** Homologação na entrega; registro para Natália (QA), conforme §6.
+
+---
+
+#### PB-10c · Fila de atendimento na recepção
+
+**Módulo:** Recepção (artefato 02 §3; PDF 6.2) · **Entrega:** 2
+
+Como **recepcionista**, quero **alterar o status de chegada e visualizar a fila ordenada** para **acompanhar o fluxo de atendimento do dia**.
+
+**Critérios:**
+
+- Alterar status de chegada conforme regra acordada.
+- Visualizar fila ordenada conforme regra acordada.
+- Cenário Anexo C — Recepção: acompanhar fila.
+
+**Dependência:** PB-10b.
+
+**Prioridade:** 15 (ordenação acordada com Bruno Ferraz — Decisão 3).  
+**Responsável e colaboradores:** A definir na execução.  
+**Datas:** Entrada em fluxo: — · Conclusão: —  
+**Evidências:** Homologação na entrega; registro para Natália (QA), conforme §6.
 
 ---
 
@@ -247,25 +408,97 @@ Como **profissional ou equipe de apoio autorizada**, quero **iniciar e encerrar 
 - **Não** permitir registro de conteúdo clínico detalhado (Anexo B — fora).
 - Cenário Anexo C — Atendimento: alterar status e registrar informações permitidas.
 
-**Dependência:** PB-10.
+**Dependência:** PB-10a, PB-10b.
+
+**Prioridade:** 16 (ordenação acordada com Bruno Ferraz — Decisão 3).  
+**Responsável e colaboradores:** A definir na execução.  
+**Datas:** Entrada em fluxo: — · Conclusão: —  
+**Evidências:** Homologação na entrega; registro para Natália (QA), conforme §6.
 
 ---
 
-#### PB-12 · Portal do paciente
+#### PB-12a · Identificação do paciente no portal
 
-**Módulo:** Portal do paciente (artefato 02 §3; PDF 6.2; Z-02, Z-04) · **Entrega:** 2
+**Módulo:** Portal do paciente (artefato 02 §3; PDF 6.2) · **Entrega:** 2
 
-Como **paciente**, quero **identificar-me, pesquisar horários, agendar, ver próximos compromissos e cancelar conforme política** para **agendar sem depender exclusivamente do telefone**.
+Como **paciente**, quero **identificar-me no portal** para **acessar apenas minhas informações e agendamentos permitidos**.
 
 **Critérios:**
 
 - Identificar paciente pelo mecanismo acordado (ex.: CPF + validação combinada).
-- Pesquisar horários disponíveis e concluir agendamento respeitando as mesmas regras de sobreposição de PB-07.
-- Listar próximos compromissos e cancelar futuros **somente** dentro da política aprovada em **P-06** (prazo e regra escritos).
-- **Não** oferecer reagendamento autônomo pelo paciente (Z-02 — Depois / CR) nem pagamento antecipado (Z-04 — fora).
-- Cenários Anexo C — Portal: localizar horário, agendar, consultar compromisso, cancelar conforme regra.
+- Bloquear acesso quando a identificação falhar, com mensagem clara ao usuário.
+- Cenário Anexo C — Portal: fluxo de acesso após identificação.
 
-**Dependência:** PB-06, PB-07; **P-06** até **16/12/2026** para fechar regra de cancelamento no portal.
+**Dependência:** PB-06, PB-07.
+
+**Prioridade:** 17 (ordenação acordada com Bruno Ferraz — Decisão 3).  
+**Responsável e colaboradores:** A definir na execução.  
+**Datas:** Entrada em fluxo: — · Conclusão: —  
+**Evidências:** Homologação na entrega; registro para Natália (QA), conforme §6.
+
+---
+
+#### PB-12b · Pesquisar horário e agendar pelo portal
+
+**Módulo:** Portal do paciente (artefato 02 §3; PDF 6.2) · **Entrega:** 2
+
+Como **paciente**, quero **pesquisar horários disponíveis e concluir um agendamento** para **marcar consulta sem depender exclusivamente do telefone**.
+
+**Critérios:**
+
+- Pesquisar horários disponíveis conforme regras de PB-06 e PB-07.
+- Concluir agendamento respeitando as mesmas regras de **sobreposição** de PB-07.
+- **Não** oferecer pagamento antecipado (Z-04 — fora).
+- Cenários Anexo C — Portal: localizar horário, agendar.
+
+**Dependência:** PB-12a, PB-07.
+
+**Prioridade:** 18 (ordenação acordada com Bruno Ferraz — Decisão 3).  
+**Responsável e colaboradores:** A definir na execução.  
+**Datas:** Entrada em fluxo: — · Conclusão: —  
+**Evidências:** Homologação na entrega; registro para Natália (QA), conforme §6.
+
+---
+
+#### PB-12c · Consultar próximos compromissos no portal
+
+**Módulo:** Portal do paciente (artefato 02 §3; PDF 6.2) · **Entrega:** 2
+
+Como **paciente**, quero **listar meus próximos compromissos** para **saber quando devo comparecer**.
+
+**Critérios:**
+
+- Listar compromissos futuros do paciente autenticado.
+- Exibir data, horário, unidade e profissional/especialidade conforme desenho.
+- Cenário Anexo C — Portal: consultar compromisso.
+
+**Dependência:** PB-12b.
+
+**Prioridade:** 19 (ordenação acordada com Bruno Ferraz — Decisão 3).  
+**Responsável e colaboradores:** A definir na execução.  
+**Datas:** Entrada em fluxo: — · Conclusão: —  
+**Evidências:** Homologação na entrega; registro para Natália (QA), conforme §6.
+
+---
+
+#### PB-12d · Cancelar compromisso futuro no portal
+
+**Módulo:** Portal do paciente (artefato 02 §3; PDF 6.2; Z-02) · **Entrega:** 2
+
+Como **paciente**, quero **cancelar compromissos futuros conforme a política aprovada** para **desistir da consulta dentro das regras da clínica**.
+
+**Critérios:**
+
+- Cancelar compromissos futuros **somente** dentro da política aprovada em **P-06** (prazo e regra escritos).
+- **Não** oferecer reagendamento autônomo pelo paciente (Z-02 — Depois / CR).
+- Cenário Anexo C — Portal: cancelar conforme regra.
+
+**Dependência:** PB-12c; **P-06** até **16/12/2026** para fechar regra de cancelamento no portal.
+
+**Prioridade:** 20 (ordenação acordada com Bruno Ferraz — Decisão 3).  
+**Responsável e colaboradores:** A definir na execução.  
+**Datas:** Entrada em fluxo: — · Conclusão: —  
+**Evidências:** Homologação na entrega; registro para Natália (QA), conforme §6.
 
 ---
 
@@ -277,12 +510,17 @@ Como **paciente e recepção**, quero **receber confirmação, lembrete, cancela
 
 **Critérios:**
 
-- Disparar eventos de confirmação, lembrete, cancelamento e alteração de horário ao ocorrer transição correspondente na agenda (PB-07/PB-12).
+- Disparar eventos de confirmação, lembrete, cancelamento e alteração de horário ao ocorrer transição correspondente na agenda (PB-07, PB-12b, PB-12d).
 - Editar templates parametrizáveis com conteúdo mínimo validado com Juliana Reis (Decisão 3).
 - **Baseline de aceite:** canal **e-mail** operacional em homologação; validar conteúdo e disparo (Anexo C — Notificações).
 - WhatsApp permanece **fora** deste critério até CR formal (Z-01, P-03).
 
-**Dependência:** PB-07, PB-12. Se **P-03** não fechar até **16/12/2026**, a Entrega 2 aceita notificações por e-mail sem obrigação de outro canal.
+**Dependência:** PB-07, PB-12b. Se **P-03** não fechar até **16/12/2026**, a Entrega 2 aceita notificações por e-mail sem obrigação de outro canal.
+
+**Prioridade:** 21 (ordenação acordada com Bruno Ferraz — Decisão 3).  
+**Responsável e colaboradores:** A definir na execução.  
+**Datas:** Entrada em fluxo: — · Conclusão: —  
+**Evidências:** Homologação na entrega; registro para Natália (QA), conforme §6.
 
 ---
 
@@ -299,7 +537,12 @@ Como **gestor operacional (Paula / sponsor)**, quero **consultar indicadores mac
 - Conferir filtros prioritários com usuários-chave (Anexo C — Gestão).
 - **Não** incluir dashboard executivo com metas/formulas adicionais (Z-07 — Depois / CR).
 
-**Dependência:** PB-07, PB-10 (dados operacionais mínimos).
+**Dependência:** PB-07, PB-10a (dados operacionais mínimos).
+
+**Prioridade:** 22 (ordenação acordada com Bruno Ferraz — Decisão 3).  
+**Responsável e colaboradores:** A definir na execução.  
+**Datas:** Entrada em fluxo: — · Conclusão: —  
+**Evidências:** Homologação na entrega; registro para Natália (QA), conforme §6.
 
 ---
 
@@ -318,11 +561,16 @@ Como **área financeira da Vida+**, quero **enviar evento de atendimento particu
 
 **Dependência:** PB-11. **Bloqueio possível:** P-01 — Marcelo Viana entrega documentação, credenciais e ambiente de teste até **16/12/2026**.
 
+**Prioridade:** 23 (ordenação acordada com Bruno Ferraz — Decisão 3).  
+**Responsável e colaboradores:** A definir na execução.  
+**Datas:** Entrada em fluxo: — · Conclusão: —  
+**Evidências:** Homologação na entrega; registro para Natália (QA), conforme §6.
+
 ---
 
 ## 6. Políticas de fluxo (Aula 19)
 
-Estas regras valem para todos os itens PB-01 a PB-15 quando o grupo operar o backlog no quadro Kanban (Decisão 1):
+Estas regras valem para todos os cartões deste backlog (PB-01 a PB-15, incluindo sub-IDs) quando o grupo operar a lista no quadro Kanban (Decisão 1):
 
 | Transição | Política |
 |---|---|
@@ -351,8 +599,6 @@ Exclusões comerciais permanentes (app nativo, TISS, telemedicina, pagamento onl
 - **Pessoa 3:** transformar cada cartão em atividades, horas e marcos das Entregas 1 e 2 (seção 9 do PDF).
 - **Pessoa 4:** critérios de aceite alimentam plano de qualidade (6.5, Anexo C); bloqueios P-01/P-02 ligam-se à matriz de riscos.
 - **Pessoa 1:** validações clínicas e operacionais nas dependências P-05, P-06 e perfis P-04.
-- **Artefato 09 Roadmap:** [09 Roadmap](09%20Roadmap.md) — PB-01 a PB-15 nas janelas Descoberta, Protótipo, Entrega 1, Entrega 2, Homologação, Preparação, Go-live e Estabilização.
+- **Artefato 09 Roadmap:** [09 Roadmap](09%20Roadmap.md) — cartões nas janelas Descoberta, Protótipo, Entrega 1, Entrega 2, Homologação, Preparação, Go-live e Estabilização.
 
-**Pendências de formato (Etapa 3 do plano de ensino):** cartões PB-03, PB-05, PB-10 e PB-12 concentram vários resultados; após a aula de histórias de usuário o grupo pode **fatiar** em itens menores **sem** alterar ordem nem fronteira já publicada aqui.
-
-**Pronto quando:** a Pessoa 3 consegue estimar horas a partir deste arquivo (critério da issue #12).
+**Pronto quando (issue #14):** cada item estiver no **formato de história/cartão** ensinado na Aula 19, com critérios de aceite revisados, fatiamento aplicado nos antigos PB-03/05/10/12 **sem** alterar fronteira do go-live, e o roadmap refletir os sub-IDs.
