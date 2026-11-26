@@ -1,6 +1,6 @@
 # Pessoa 1 — Pessoas e governança
 
-Integrante: ______
+Integrante: Jenifer Gomes (artefatos em [`pessoa_1/`](../pessoa_1/))
 
 ## Seus artefatos
 
@@ -31,31 +31,31 @@ Integrante: ______
 
 ## 01 Mapa de Stakeholders — o que precisa ter
 
-- [ ] Todos os nomes acima, mais grupos sem nome: recepcionistas das 4 unidades, médicos, pacientes do portal, fornecedor de mensageria, equipe da futura unidade Indaiatuba.
-- [ ] Interno ou externo.
-- [ ] Interesse principal de cada um (o PDF já dá vários).
-- [ ] Poder e interesse (alto/baixo) e o quadrante da matriz.
-- [ ] Estratégia de engajamento por quadrante.
-- [ ] Destaque: responsável LGPD do cliente ainda não existe (P-08).
+- [x] Todos os nomes acima, mais grupos sem nome: recepcionistas das 4 unidades, médicos, pacientes do portal, fornecedor de mensageria, equipe da futura unidade Indaiatuba.
+- [x] Interno ou externo.
+- [x] Interesse principal de cada um (o PDF já dá vários).
+- [x] Poder e interesse (alto/baixo) e o quadrante da matriz.
+- [x] Estratégia de engajamento por quadrante.
+- [x] Destaque: responsável LGPD do cliente ainda não existe (P-08).
 
 ## 03 Matriz RACI — o que precisa ter
 
-- [ ] Linhas: descoberta, desenho funcional, protótipo, desenvolvimento, testes internos, homologação, carga de dados, integração VidaFin, treinamento, go-live, aprovação de mudança, aceite de entrega.
-- [ ] Colunas: pessoas reais do PDF.
-- [ ] Um único **A** por linha.
-- [ ] Papéis Scrum (Aula 20) mapeados em pessoas já existentes, sem criar organograma paralelo. Use a Decisão 3 da reunião.
-- [ ] Coerente com o Fluxo de Mudanças da Pessoa 4: quem aprova mudança aqui é quem aprova lá.
+- [x] Linhas: descoberta, desenho funcional, protótipo, desenvolvimento, testes internos, homologação, carga de dados, integração VidaFin, treinamento, go-live, aprovação de mudança, aceite de entrega.
+- [x] Colunas: pessoas reais do PDF.
+- [x] Um único **A** por linha.
+- [x] Papéis Scrum (Aula 20) mapeados em pessoas já existentes, sem criar organograma paralelo. Use a Decisão 3 da reunião.
+- [x] Coerente com o Fluxo de Mudanças da Pessoa 4: quem aprova mudança aqui é quem aprova lá.
 
 ## 07 Plano de Comunicação — o que precisa ter
 
-- [ ] Para cada público: o quê, quando, canal, formato (push/pull/interativa), responsável por comunicar, registro.
-- [ ] Sponsor: status executivo, desvios, decisões necessárias.
-- [ ] Usuários-chave (Paula, Dra. Helena): validações, regras, convocação para homologação com antecedência.
-- [ ] TI (Marcelo): acessos, API VidaFin, ambientes.
-- [ ] Equipe: prioridades e impedimentos.
-- [ ] Regra: decisão que muda escopo, prazo ou custo é registrada formalmente.
-- [ ] Prazo contratual: o cliente tem 5 dias úteis para aceitar cada entrega. A comunicação precisa avisar o início dessa contagem.
-- [ ] Comunicação no recesso de fim de ano.
+- [x] Para cada público: o quê, quando, canal, formato (push/pull/interativa), responsável por comunicar, registro.
+- [x] Sponsor: status executivo, desvios, decisões necessárias.
+- [x] Usuários-chave (Paula, Dra. Helena): validações, regras, convocação para homologação com antecedência.
+- [x] TI (Marcelo): acessos, API VidaFin, ambientes.
+- [x] Equipe: prioridades e impedimentos.
+- [x] Regra: decisão que muda escopo, prazo ou custo é registrada formalmente.
+- [x] Prazo contratual: o cliente tem 5 dias úteis para aceitar cada entrega. A comunicação precisa avisar o início dessa contagem.
+- [x] Comunicação no recesso de fim de ano.
 
 ## Depende de / alimenta
 

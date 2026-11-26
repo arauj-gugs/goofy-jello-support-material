@@ -1,8 +1,8 @@
 # 10 — Fluxo de Mudanças
 
 **Projeto:** Vida+ — Sistema de Gestão e Agendamento de Clínica  
-**Responsável pelo artefato:** Pessoa 4 — Controle e go-live  
-**Status:** Rascunho alinhado à Matriz RACI oficial da Pessoa 1; autoridade de aprovação permanece provisória conforme asterisco do RACI
+**Responsável pelo artefato:** Luís Gabriel (Pessoa 4 — Controle e go-live)  
+**Status:** Versão para validação — alinhada à [Matriz RACI](../pessoa_1/Matriz%20RACI%20Vida%20Mais.md) (Ricardo A* em mudança; Camila R)
 
 ## Objetivo e regra
 
@@ -77,5 +77,5 @@ Manter um log compartilhado com: ID, solicitação, solicitante/data, requisito 
 
 - Confirmar formalmente Ricardo Salles como autoridade final de aprovação; o RACI o marca A provisório e não define níveis alternativos por impacto.
 - Definir canal oficial para solicitações e ferramenta/log compartilhado.
-- A Pessoa 1 registra que o mapeamento Scrum/PO depende da Decisão 3 da reunião e ainda não está confirmado; usar Bruno apenas como analista/consultado até a validação do papel de PO.
+- PO na Decisão 3: **Bruno Ferraz** (prioridade backlog), validando Paula e Dra. Helena — coerente com RACI §6.
 - Alinhar processo de defeitos e aceite com o plano de qualidade e a cláusula contratual de homologação/garantia.

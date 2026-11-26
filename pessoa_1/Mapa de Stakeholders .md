@@ -1,4 +1,8 @@
-# Vida+ --- Identificação e classificação dos stakeholders
+# 01 — Mapa de Stakeholders
+
+**Projeto:** Vida+ — Sistema de Gestão e Agendamento de Clínica  
+**Responsável pelo artefato:** Jenifer Gomes (Pessoa 1 — Pessoas e governança)  
+**Status:** Entregue para validação na reunião do grupo
 
 ## 1. Objetivo
 

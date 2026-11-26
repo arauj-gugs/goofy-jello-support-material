@@ -1,6 +1,6 @@
 # Pessoa 4 — Controle e go-live
 
-Integrante: ______
+Integrante: Luís Gabriel (artefatos em [`pessoa_4/`](../pessoa_4/))
 
 ## Seus artefatos
 
@@ -20,7 +20,7 @@ Integrante: ______
 | 09.2 — Situação adicional | Exemplo de mudança (WhatsApp) com horas e custo de terceiro. |
 | 04 — PMBOK | Qualidade como critério de aceitação, integrada a escopo, prazo e custo. |
 
-As aulas de Qualidade, Mudanças e Go-live são da Etapa 4 do plano de ensino e ainda não estão na pasta. Monte o rascunho com base no PDF e revise quando essas aulas acontecerem.
+Material de apoio Aulas 28–29 no repositório; revisar formato após Etapa 4 (#24) se necessário.
 
 ## Insumos do PDF
 
@@ -35,41 +35,41 @@ As aulas de Qualidade, Mudanças e Go-live são da Etapa 4 do plano de ensino e 
 
 ## 06 Matriz de Riscos — o que precisa ter
 
-- [ ] No mínimo os 8 riscos da seção 12, reescritos no formato causa → evento → consequência.
-- [ ] Riscos derivados das premissas da Pessoa 2 (uma premissa falhando é risco).
-- [ ] Risco LGPD e dados pessoais de pacientes (P-08 sem responsável).
-- [ ] Risco do caminho crítico da Pessoa 3 (provavelmente backend).
-- [ ] Risco do teto de custo.
-- [ ] Pelo menos uma oportunidade (ameaça não é o único tipo).
-- [ ] P, I, P x I, prioridade, estratégia, ação, responsável (do RACI da Pessoa 1).
-- [ ] Como e quando a matriz é revisada durante o projeto.
+- [x] No mínimo os 8 riscos da seção 12, reescritos no formato causa → evento → consequência.
+- [x] Riscos derivados das premissas da Pessoa 2 (uma premissa falhando é risco).
+- [x] Risco LGPD e dados pessoais de pacientes (P-08 sem responsável).
+- [x] Risco do caminho crítico da Pessoa 3 (provavelmente backend).
+- [x] Risco do teto de custo.
+- [x] Pelo menos uma oportunidade (ameaça não é o único tipo).
+- [x] P, I, P x I, prioridade, estratégia, ação, responsável (do RACI da Pessoa 1).
+- [x] Como e quando a matriz é revisada durante o projeto.
 
 ## 10 Fluxo de Mudanças — o que precisa ter
 
-- [ ] Etapas: solicitar → registrar → analisar impacto (escopo, prazo, custo, risco, qualidade) → decidir → comunicar → atualizar artefatos.
-- [ ] Quem pode pedir, quem analisa, quem aprova por nível de impacto (igual ao RACI).
-- [ ] Diferença entre defeito (garantia) e evolução (mudança), conforme 7.4.
-- [ ] Exemplo resolvido com um item da zona cinzenta (ex.: WhatsApp ou reagendamento).
-- [ ] Diagrama do fluxo.
+- [x] Etapas: solicitar → registrar → analisar impacto (escopo, prazo, custo, risco, qualidade) → decidir → comunicar → atualizar artefatos.
+- [x] Quem pode pedir, quem analisa, quem aprova por nível de impacto (igual ao RACI).
+- [x] Diferença entre defeito (garantia) e evolução (mudança), conforme 7.4.
+- [x] Exemplo resolvido com um item da zona cinzenta (ex.: WhatsApp ou reagendamento).
+- [x] Diagrama do fluxo.
 
 ## 11 Plano de Qualidade — o que precisa ter
 
-- [ ] Critérios de aceite por dimensão (6.5): funcional, segurança, integração, dados, performance, homologação.
-- [ ] Cenários de homologação por área (Anexo C).
-- [ ] Testes internos antes de cada entrega (responsável: Natália, com agenda reservada antes).
-- [ ] Classificação de defeito (bloqueador, alto, médio, baixo) e critério para liberar.
-- [ ] Prazo de 5 dias úteis para o cliente e o efeito do aceite tácito.
-- [ ] Conferência por amostragem da carga inicial.
+- [x] Critérios de aceite por dimensão (6.5): funcional, segurança, integração, dados, performance, homologação.
+- [x] Cenários de homologação por área (Anexo C).
+- [x] Testes internos antes de cada entrega (responsável: Natália, com agenda reservada antes).
+- [x] Classificação de defeito (bloqueador, alto, médio, baixo) e critério para liberar.
+- [x] Prazo de 5 dias úteis para o cliente e o efeito do aceite tácito.
+- [x] Conferência por amostragem da carga inicial.
 
 ## 12 Plano de Go-live — o que precisa ter
 
-- [ ] Checklist da semana 13: carga final, treinamento de usuários-chave, acessos de produção, ambiente pronto (cliente contrata a cloud), comunicação às unidades.
-- [ ] Critérios de "go / no-go" e quem decide.
-- [ ] Plano de retorno (rollback) ou contorno se algo falhar no dia.
-- [ ] Equipe de plantão na semana de 03/03 (Goofy Jello e cliente).
-- [ ] Estabilização e garantia de 30 dias após o aceite do go-live.
-- [ ] Unidades: todas de uma vez ou em ondas? Indaiatuba entra ou não (Decisão 2).
-- [ ] Passagem para sustentação (fora do contrato).
+- [x] Checklist da semana 13: carga final, treinamento de usuários-chave, acessos de produção, ambiente pronto (cliente contrata a cloud), comunicação às unidades.
+- [x] Critérios de "go / no-go" e quem decide.
+- [x] Plano de retorno (rollback) ou contorno se algo falhar no dia.
+- [x] Equipe de plantão na semana de 03/03 (Goofy Jello e cliente).
+- [x] Estabilização e garantia de 30 dias após o aceite do go-live.
+- [x] Unidades: todas de uma vez ou em ondas? Indaiatuba entra ou não (Decisão 2).
+- [x] Passagem para sustentação (fora do contrato).
 
 ## Depende de / alimenta
 

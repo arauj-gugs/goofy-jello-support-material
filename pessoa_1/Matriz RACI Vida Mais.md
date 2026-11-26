@@ -1,4 +1,8 @@
-# Vida+ --- Matriz RACI
+# 03 — Matriz RACI
+
+**Projeto:** Vida+ — Sistema de Gestão e Agendamento de Clínica  
+**Responsável pelo artefato:** Jenifer Gomes (Pessoa 1 — Pessoas e governança)  
+**Status:** Versão para validação na reunião do grupo (A\* = autoridade provisória até confirmação Vida+)
 
 ## 1. Objetivo
 
@@ -13,11 +17,7 @@ planejamento e governança. As atribuições foram construídas a partir das
 responsabilidades das seções 7.2 e 7.3, das pessoas e funções da seção 8
 e dos stakeholders da seção 10.1.
 
-As decisões ainda não formalizadas --- especialmente a Decisão 3 da
-reunião, a designação definitiva do Gerente de Projetos e o Fluxo de
-Mudanças da Pessoa 4 --- estão indicadas como pendências. Portanto, esta
-versão deve ser tratada como **matriz preliminar para validação**, e não
-como formalização de decisões que ainda não foram disponibilizadas.
+A **Decisão 3** e o **Fluxo de Mudanças** (Pessoa 4) já estão publicados e orientam o mapeamento Scrum e a linha “Aprovação de mudança”. Pendências de formalização (GP, sponsor, LGPD) permanecem na seção 7.
 
 ## 2. Legenda e critérios
 
@@ -379,56 +379,17 @@ detalhados na seção 6.
 
 ## 6. Mapeamento dos papéis Scrum
 
-O requisito da atividade determina que os papéis Scrum sejam mapeados em
-pessoas já existentes, sem criar um organograma paralelo, e que seja
-utilizada a **Decisão 3 da reunião**.
+Papéis Scrum (Aula 20) mapeados em pessoas do handoff, **sem organograma paralelo**, conforme [Decisão 3](../planejamento/00-reuniao-de-decisoes.md) registrada na reunião do grupo.
 
-O conteúdo da Decisão 3 não foi disponibilizado entre os materiais
-recebidos. Assim, o quadro abaixo é uma **proposta de correspondência
-baseada nas funções existentes**, não uma afirmação de que essa foi a
-decisão tomada na reunião. Deve ser conferido e ajustado quando a
-Decisão 3 estiver disponível.
+| Papel Scrum | Pessoa(s) | Papel no Vida+ / na Decisão 3 |
+|---|---|---|
+| **Product Owner** (prioridade do backlog — lado Goofy Jello) | **Bruno Ferraz** | Prioriza e refina o backlog no dia a dia; **valida** com **Paula Ribeiro** (aceite operacional da recepção) e **Dra. Helena Moraes** (regras clínicas de agenda). Paula e a Dra. Helena **não** substituem Bruno como PO contratado — são consultas obrigatórias para decisões de produto. |
+| **Scrum Master** (facilitação e impedimentos) | **Camila Rocha** | GP sênior: condução do projeto, integração dos planos, cadência e escalonamento. Designação formal pela Diretoria de Operações ainda a confirmar no cliente (ver P-RACI-03). |
+| **Developers** | **Lívia Monteiro**, **Rafael Nunes**, **Diego Prado**, **Natália Campos**, **Igor Mendes** (e **Bruno** na frente de negócio quando não está na priorização) | Construção multidisciplinar alinhada ao [cronograma](../pessoa_3/04%20Cronograma.md) e [backlog](../pessoa_2/08%20Product%20Backlog.md). |
 
-  -----------------------------------------------------------------------
-  Papel Scrum             Pessoa(s) mapeada(s)    Fundamentação e
-                                                  ressalva
-  ----------------------- ----------------------- -----------------------
-  Product Owner (PO)      Paula Ribeiro ---       É a usuária-chave e
-                          proposta provisória     representa a operação
-                                                  de recepção, podendo
-                                                  contribuir com
-                                                  necessidades e
-                                                  prioridades funcionais.
-                                                  A autoridade para
-                                                  priorizar o backlog em
-                                                  nome de toda a Vida+
-                                                  ainda não foi
-                                                  formalizada.
+**Governança além do Scrum (Decisão 3):** trade-off executivo (prazo, escopo grande, custo) → **Ricardo Salles**; acessos/API/ambiente → **Marcelo Viana**; VidaFin → **Fernanda Lopes + Marcelo**; templates de mensagem → **Juliana Reis**.
 
-  Scrum Master (SM)       Camila Rocha ---        Sua função de Gerente
-                          proposta provisória     de Projetos Sênior é a
-                                                  correspondência
-                                                  existente mais próxima
-                                                  para facilitar o
-                                                  trabalho e apoiar a
-                                                  remoção de
-                                                  impedimentos. A
-                                                  designação formal da
-                                                  gerência ainda está
-                                                  pendente.
-
-  Developers              Bruno Ferraz, Lívia     Equipe multidisciplinar
-                          Monteiro, Rafael Nunes, já identificada,
-                          Diego Prado, Natália    responsável pelas
-                          Campos e Igor Mendes    atividades de análise,
-                                                  design,
-                                                  desenvolvimento, testes
-                                                  e preparação técnica da
-                                                  solução. A alocação
-                                                  efetiva deve ser
-                                                  confirmada no
-                                                  planejamento.
-  -----------------------------------------------------------------------
+**Aprovação de mudança (coerência com artefato 10):** na linha “Aprovação de mudança” desta matriz, **Ricardo Salles** permanece **A\*** (autoridade de trade-off / baseline contratual). **Camila Rocha** é **R** (registro, coordenação da análise de impacto). O [Fluxo de Mudanças](../pessoa_4/Fluxo%20de%20Mudança.md) usa o mesmo par — não há aprovador alternativo por nível de impacto até a Vida+ formalizar delegação.
 
 Henrique Tavares e Marina Couto permanecem como contatos de Pré-vendas e
 Comercial para esclarecimentos sobre premissas e compromissos da
@@ -441,18 +402,13 @@ desenvolvimento do produto.
   -------------------------------------------------------------------------
   ID                Pendência         Impacto na matriz   Ação necessária
   ----------------- ----------------- ------------------- -----------------
-  P-RACI-01         Decisão 3 da      O mapeamento de PO, Conferir a
-                    reunião não       SM e Developers     decisão e ajustar
-                    disponibilizada   ainda não pode ser  os papéis Scrum,
-                                      confirmado como     se necessário.
-                                      decisão oficial.    
-
-  P-RACI-02         Fluxo de Mudanças O A da linha        Substituir ou
-                    da Pessoa 4 ainda "Aprovação de       ratificar o A
-                    não publicado     mudança" é          conforme a
-                                      provisório.         autoridade
-                                                          definida no fluxo
-                                                          oficial.
+  P-RACI-02         Autoridade formal O A de "Aprovação    Ricardo Salles
+                    de Ricardo como   de mudança" está    ratifica com a
+                    aprovador de      alinhado ao Fluxo   Vida+ na
+                    mudanças na Vida+ 10; A* indica       mobilização, se
+                                      provisório até      necessário.
+                                      confirmação do      
+                                      sponsor.            
 
   P-RACI-03         Gerente de        A coordenação       Formalizar a
                     Projetos          atribuída a Camila  designação pela
@@ -529,14 +485,12 @@ desenvolvimento do produto.
 -   A pendência P-08 do documento de stakeholders permanece válida:
     Ricardo Salles deve providenciar a definição do responsável por
     LGPD, mas não foi designado como responsável por LGPD por hora.
--   Esta matriz deverá ser revisada após a publicação do Fluxo de
-    Mudanças da Pessoa 4 e a conferência da Decisão 3 da reunião.
+-   Decisão 3 e Fluxo de Mudanças (artefato 10) publicados em `main`; revisar apenas se a Vida+ alterar autoridades na mobilização.
 
 ## 9. Referências
 
--   Handoff Comercial → Projetos --- Vida+, seções 7.2, 7.3, 8 e 10.1.
--   Vida+ --- Identificação e classificação dos stakeholders.
--   Aula 20 --- Papéis Scrum.
--   Reunião --- Decisão 3 (conteúdo ainda não disponibilizado para
-    conferência).
--   Fluxo de Mudanças --- Pessoa 4 (documento ainda não publicado).
+-   Handoff Comercial → Projetos — Vida+, seções 7.2, 7.3, 8 e 10.1.
+-   [Mapa de Stakeholders](Mapa%20de%20Stakeholders%20.md).
+-   [Decisão 3 — Quem decide](../planejamento/00-reuniao-de-decisoes.md).
+-   [Fluxo de Mudanças](../pessoa_4/Fluxo%20de%20Mudança.md) (Pessoa 4).
+-   Aulas 06 e 20 — Governança e papéis Scrum.

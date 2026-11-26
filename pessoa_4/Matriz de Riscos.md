@@ -2,7 +2,7 @@
 
 **Projeto:** Vida+ — Sistema de Gestão e Agendamento de Clínica  
 **Responsável pelo artefato:** Luís Gabriel (Pessoa 4 — Controle e go-live)  
-**Status:** Rascunho atualizado na revisão cruzada (cronograma/custos Pessoa 3 em `main`); validação final na reunião do grupo  
+**Status:** Versão para validação na reunião — R12–R14 alinhados ao cronograma/custos (Gustavo Vieira); probabilidades e A* a confirmar com cliente  
 **Base:** handoff VidaMais, pendências P-01 a P-08, riscos preliminares da seção 12 e decisões do grupo ainda em aberto.
 
 ## Escala e priorização
