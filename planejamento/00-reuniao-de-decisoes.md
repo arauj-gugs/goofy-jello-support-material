@@ -46,13 +46,13 @@ Base: Anexo B do PDF.
 
 | Item | Origem | Dentro | Fora | Depois / CR | Justificativa |
 |---|---|---|---|---|---|
-| Confirmação por WhatsApp | nota 01/09, P-03 | | | | |
-| Reagendamento pelo próprio paciente | nota 25/08, P-06 | | | | |
-| Regras de encaixe/bloqueio por médico | nota 03/09 | | | | |
-| Pagamento antecipado no portal | nota 16/09 | | | | |
-| Anos de histórico de pacientes | nota 14/09, P-02 | | | | |
-| Unidade Indaiatuba ativa no go-live | seção 3 e 10 | | | | |
-| Dashboard executivo além dos indicadores macro | nota 08/09 | | | | |
+| Confirmação por WhatsApp (Z-01) | nota 01/09, P-03 | | | X | Canal e custo com o cliente; 5.5 exclui WhatsApp API. Baseline: e-mail. |
+| Reagendamento pelo próprio paciente (Z-02) | nota 25/08, P-06 | | | X | P-06 sem regra fechada; contrato cobre cancelamento conforme política. Remarcação pela equipe dentro. |
+| Regras de encaixe/bloqueio por médico (Z-03) | nota 03/09 | X | | | Parametrização por permissão no módulo Agenda; exceções novas via CR. |
+| Pagamento antecipado no portal (Z-04) | nota 16/09 | | X | | Exclusão 5.5 e Anexo B (cobrança online). |
+| Anos de histórico de pacientes (Z-05) | nota 14/09, P-02 | | X | | Carga essencial sim; migração ampla e saneamento extensivo fora. |
+| Unidade Indaiatuba ativa no go-live (Z-06) | seção 3 e 10 | | X | | Cadastro de unidade pode existir; operação, agenda, carga e treinamento da 5ª unidade ficam fora de 03/03/2027. |
+| Dashboard executivo além dos indicadores macro (Z-07) | nota 08/09 | | | X | Indicadores macro e exportação dentro (Gestão); painel executivo adicional sem data. |
 
 ## Decisão 3 — Quem decide
 
