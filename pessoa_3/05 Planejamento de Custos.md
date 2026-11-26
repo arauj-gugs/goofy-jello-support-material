@@ -2,7 +2,7 @@
 
 **Projeto:** Vida+ — Sistema de Gestão e Agendamento de Clínica  
 **Responsável pelo artefato:** Gustavo Vieira (Pessoa 3 — Prazo e custos)  
-**Status:** Rascunho para validação na revisão cruzada do grupo  
+**Status:** Versão consolidada — revisão cruzada #26  
 **Base:** handoff `VidaMais - KT Projetos - Goofy Jello.pdf` (seções 5.3, 6.6, 8 e 8.2), [Decisão 4](../planejamento/00-reuniao-de-decisoes.md), [02 Escopo](../pessoa_2/02%20Escopo%20Premissas%20e%20Restricoes.md), [04 Cronograma](04%20Cronograma.md), Aula 09 — Estimativas e Gestão de Custos.
 
 ## 1. Objetivo
@@ -172,7 +172,7 @@ Conclusão pedagógica: mudanças que reintroduzem itens da zona cinzenta **não
 
 | Artefato | Alinhamento |
 |---|---|
-| [04 Cronograma](04%20Cronograma.md) | Mesmos IDs A01–A18; horas totais por semana compatíveis com §5.2 |
+| [04 Cronograma](04%20Cronograma.md) | Mesmos IDs A01–A18 e **1.096 h** por pacote (sincronizado na revisão cruzada); horas semanais compatíveis com §5.2 |
 | [09 Roadmap](../pessoa_2/09%20Roadmap.md) | Parcela “homologação” 30% após Entrega 2 |
 | [Matriz de Riscos](../pessoa_4/Matriz%20de%20Riscos.md) | **R13** — backend/capacidade Rafael; **R14** — este plano mitiga ultrapassar teto |
 | [08 Backlog](../pessoa_2/08%20Product%20Backlog.md) | Custo atribuído por PB na coluna da tabela §5.1 |
@@ -187,8 +187,8 @@ Conclusão pedagógica: mudanças que reintroduzem itens da zona cinzenta **não
 | Backend 330 h × Rafael 24 h/sem ≈ 14 semanas | Plano **308 h** Rafael em **~12 semanas úteis** + apoio Diego — ainda crítico (R13) |
 | Cabe em R$ 158.000? | **Sim** — **R$ 151.550** |
 
-## 12. Pendências para validação do grupo
+## 12. Decisões registradas
 
-- Confirmar se a redução de **84 h** versus a analógica está aceita pela Goofy Jello (risco de capacidade na janela E2 permanece).
-- Atualizar **R13/R14** na Pessoa 4 com valores fechados deste artefato.
-- Revisão cruzada: cada PB-01 a PB-15 com horas em §5.1.
+- Redução de **84 h** versus analógica (**aceita** na revisão cruzada; bottom-up **1.096 h / R$ 151.550** é a baseline de controle).
+- **R13/R14** na [Matriz de Riscos](../pessoa_4/Matriz%20de%20Riscos.md) refletem este artefato e o [04 Cronograma](04%20Cronograma.md).
+- PB-01 a PB-15 rastreáveis a pacotes A01–A18 em §5.1 (sincronizado com o cronograma).

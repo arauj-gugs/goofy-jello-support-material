@@ -2,7 +2,7 @@
 
 **Projeto:** Vida+ — Sistema de Gestão e Agendamento de Clínica  
 **Responsável pelo artefato:** Pessoa 2 — Escopo e produto  
-**Status:** Rascunho inicial para validação na reunião do grupo  
+**Status:** Versão consolidada — revisão cruzada #26  
 **Base:** handoff `VidaMais - KT Projetos - Goofy Jello.pdf` (seção 9), [Decisão 4](../planejamento/00-reuniao-de-decisoes.md), [02 Escopo, Premissas e Restrições](02%20Escopo%20Premissas%20e%20Restricoes.md), [08 Product Backlog](08%20Product%20Backlog.md) e definições das Aulas 18 e 20.
 
 ## 1. Objetivo
@@ -200,7 +200,7 @@ Exclusões permanentes do contrato (app nativo, TISS, telemedicina, cobrança on
 
 | Aspecto | Registro no roadmap |
 |---|---|
-| **Período proposto** | 24/12/2026 a 06/01/2027 — validar na reunião (célula em aberto na Decisão 4) |
+| **Período proposto** | **24/12/2026 a 06/01/2027** — confirmado (Decisão 4; [04 Cronograma §3.1](../pessoa_3/04%20Cronograma.md)) |
 | **Construção** | Sem atividades de desenvolvimento planejadas como compromisso |
 | **Entregas** | Sem Entrega funcional nem disponibilização para aceite |
 | **Backlog** | Itens PB permanecem visíveis; bloqueios e dependências do cliente documentados, sem prometer conclusão |
@@ -230,16 +230,16 @@ Legenda: **R** refinamento · **D** desenho · **P** protótipo · **C** constru
 - **Pessoa 1:** validações e comunicação no recesso e nas janelas de aceite.
 - **Revisão cruzada:** cada capacidade do go-live deve aparecer em Escopo → Backlog → **Roadmap** → Cronograma → Custos → Riscos → Qualidade → Go-live.
 
-## 9. Pendências para validação do grupo
+## 9. Manutenção e dependências cliente
 
-### Resolvido no plano publicado (revisão cruzada — conferir na reunião)
+### Documentação fechada (revisão cruzada #26)
 
 - **Recesso:** **24/12/2026–06/01/2027** sem construção comprometida — [04 Cronograma](../pessoa_3/04%20Cronograma.md) §3 e capacidade semanal.
 - **Entrega 1 nas semanas 1–4 (§3.1) vs teto de custo:** alocação factível no bottom-up (**R$ 151.550**) — [05 §5–6](../pessoa_3/05%20Planejamento%20de%20Custos.md); E1 combina semanas 1–4 + retomada pós-recesso conforme WBS (A05–A06 e paralelos), sem alterar marcos desta tabela.
 - **Confronto marco a marco com o cronograma:** feito; janelas da Decisão 4 permanecem; paralelismo E1 (construção antecipada + retomada pós-recesso) documentado no 04, não exige mudança de datas vendidas aqui.
 
-### Ainda em aberto
+### Contingência registrada (não é item em aberto de escopo)
 
-- Se **P-01** não se confirmar, retirar PB-15 do incremento do go-live mantendo o marco de **03/03/2027** (premissa artefato 02).
+- Se **P-01** não for atendida até **16/12/2026**, **PB-15** sai da baseline do go-live; o marco **03/03/2027** permanece (artefato 02 §5.4 e §6).
 
 **Pronto quando (issue #13):** o roadmap estiver **coerente com o backlog** e com o **cronograma da Pessoa 3** — isto é, mesmas janelas da Decisão 4, todos os PB do go-live alocados a fases, recesso visível, itens adiados sem data, e a Pessoa 3 conseguir encaixar atividades nas semanas deste arquivo sem contradição.

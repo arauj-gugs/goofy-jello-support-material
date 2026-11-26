@@ -2,7 +2,7 @@
 
 **Projeto:** Vida+ — Sistema de Gestão e Agendamento de Clínica  
 **Responsável pelo artefato:** Luís Gabriel (Pessoa 4 — Controle e go-live)  
-**Status:** Revisão cruzada — alinhado à [Matriz RACI](../pessoa_1/Matriz%20RACI%20Vida%20Mais.md), às decisões Z-01–Z-07 do artefato 02 e ao impacto indicativo do [05 Custos](../pessoa_3/05%20Planejamento%20de%20Custos.md); Ricardo A* em mudança, Camila R
+**Status:** Revisão cruzada — alinhado à [Matriz RACI](../pessoa_1/Matriz%20RACI%20Vida%20Mais.md), às decisões Z-01–Z-07 do artefato 02 e ao impacto indicativo do [05 Custos](../pessoa_3/05%20Planejamento%20de%20Custos.md); **Ricardo Salles (A)** em mudança, **Camila Rocha (R / GP)**
 
 ## Objetivo e regra
 
@@ -17,7 +17,7 @@ flowchart TD
     C -->|Sim| D[Registrar defeito e avaliar garantia / correção]
     C -->|Não: evolução ou alteração| E[Analisar impacto: escopo, prazo, custo, risco, qualidade e integração]
     E --> F[Recomendar: aceitar, rejeitar, adiar ou trocar prioridade]
-    F --> G{Decisão formal: Ricardo Salles A* provisório no RACI}
+    F --> G{Decisão formal: Ricardo Salles A no RACI}
     G -->|Aprovada| H[Registrar decisão, responsável e data]
     G -->|Rejeitada ou adiada| I[Comunicar motivo e manter registro]
     H --> J[Atualizar escopo, backlog, cronograma, custos, riscos, testes e comunicação]
@@ -39,18 +39,18 @@ flowchart TD
 
 ## Papéis e autoridade
 
-Papéis conforme a Matriz RACI oficial da Pessoa 1. O RACI marca Ricardo como **A provisório** para aprovação de mudanças e Camila como **R**; confirmar formalmente a autoridade de Ricardo com a governança Vida+.
+Papéis conforme a Matriz RACI oficial da Pessoa 1 (Decisão 3). Ricardo é **A** na aprovação de mudanças; Camila é **R** (GP) no registro e na coordenação da análise.
 
 | Papel | Participação proposta |
 |---|---|
 | Solicitante | Usuário-chave/cliente ou integrante do projeto; registra a necessidade, mas não aprova a própria mudança. |
-| Aprovação | Ricardo Salles (A* provisório na linha “Aprovação de mudança”); o asterisco indica que a autoridade final ainda precisa de confirmação formal pela Vida+. |
-| Registro e coordenação | Camila Rocha (R): recebe e registra a solicitação, coordena análise de impacto e acompanha a decisão; sua designação formal como GP ainda está pendente. |
+| Aprovação | Ricardo Salles (**A** na linha “Aprovação de mudança”). |
+| Registro e coordenação | Camila Rocha (**R**, GP formal): recebe e registra a solicitação, coordena análise de impacto e acompanha a decisão. |
 | Análise funcional/negócio | Bruno Ferraz (C) apoia análise de requisitos; Paula Ribeiro, Dra. Helena Moraes, Marcelo Viana, Fernanda Lopes e Juliana Reis são consultados conforme área afetada. |
 | Análise técnica, qualidade e infraestrutura | Lívia Monteiro, Rafael Nunes, Diego Prado, Natália Campos e Igor Mendes (C) avaliam impactos de UX, desenvolvimento, testes e ambiente conforme a mudança. |
 | Esclarecimento comercial | Henrique Tavares e Marina Couto (I) podem ser acionados para esclarecer premissas e compromissos da negociação; não aprovam a mudança por esse papel. |
 
-O RACI atual não define um aprovador alternativo por baixo/médio/alto impacto: Ricardo é A* provisório para a atividade de aprovação de mudança. Até essa autoridade ser confirmada, Camila coordena a análise, registra a decisão pendente e não trata mudança de baseline como aprovada. Qualquer impacto em contrato ou preço exige validação formal conforme governança aplicável.
+Não há aprovador alternativo por baixo/médio/alto impacto: toda mudança que altere baseline passa por Ricardo. Camila não trata mudança de baseline como aprovada sem decisão registrada. Qualquer impacto em contrato ou preço exige validação formal conforme governança aplicável.
 
 ## Defeito, garantia e mudança
 
@@ -66,17 +66,27 @@ O RACI atual não define um aprovador alternativo por baixo/médio/alto impacto:
 1. Registrar como solicitação e localizar o requisito aprovado de notificações.
 2. Conferir a baseline: notificações por e-mail estão dentro; WhatsApp está adiado (Z-01) e não é aprovado pela nota informal.
 3. Fazer análise indicativa: o artefato 05 estima 80 h adicionais de equipe (BA 16 h, backend 24 h, full stack 20 h, QA 12 h e DevOps 8 h), cerca de **R$ 11.200** de mão de obra, mais custo do serviço de mensageria pago pelo cliente e possível impacto de **1 a 2 semanas** no caminho crítico. O total estimado ficaria em cerca de **R$ 162.750**, acima do teto interno de R$ 158.000.
-4. Recomendação: manter Z-01 em Depois/CR e usar e-mail no primeiro go-live. Se o cliente insistir em incluir WhatsApp, registrar Change Request e submeter a Ricardo Salles (A* provisório); Camila registra e coordena a análise. Não iniciar trabalho nem assumir custos sem aprovação formal e atualização do baseline.
+4. Recomendação: manter Z-01 em Depois/CR e usar e-mail no primeiro go-live. Se o cliente insistir em incluir WhatsApp, registrar Change Request e submeter a Ricardo Salles (**A**); Camila registra e coordena a análise. Não iniciar trabalho nem assumir custos sem aprovação formal e atualização do baseline.
 5. Comunicar o adiamento e a alternativa de e-mail; se houver aprovação futura, documentar fornecedor, credenciais, responsabilidade pelo custo transacional, escopo e prazo, atualizar escopo/backlog, cronograma, custos, riscos e cenários de qualidade; depois implementar e validar disparo e conteúdo.
 
 ## Registro de mudanças
 
 Manter um log compartilhado com: ID, solicitação, solicitante/data, requisito de referência, classificação (defeito/mudança), impactos, recomendação, autoridade/decisão/data, condição, artefatos atualizados, responsável e status. A GP apresenta mudanças abertas e aprovadas nas reuniões de acompanhamento.
 
-## Pontos para validar
+**Ferramentas oficiais:** [07 Plano de Comunicação §7.1](../pessoa_1/07%20Plano%20de%20Comunicação.md) — e-mail do projeto, planilha **CR-LOG**, pasta **Teams/SharePoint** “Vida+ — Governança”.
 
-- Confirmar formalmente Ricardo Salles como autoridade final de aprovação; o RACI o marca A provisório e não define níveis alternativos por impacto.
-- Definir canal oficial para solicitações e ferramenta/log compartilhado.
-- PO na Decisão 3: **Bruno Ferraz** (prioridade backlog), validando Paula e Dra. Helena — coerente com RACI §6.
-- Confirmar que os valores ilustrativos de horas/custo do exemplo seguem o artefato 05 vigente ao aprovar eventual CR.
-- Alinhar processo de defeitos e aceite com o plano de qualidade e a cláusula contratual de homologação/garantia.
+## Canal oficial de solicitação
+
+| Canal | Uso | Não usar para |
+|---|---|---|
+| **projetos-vida+@goofyjello.com.br** | Mudanças, CR, inconformidades formais | Aprovação tácita de escopo |
+| **CR-LOG** + pasta Governança | Registro, evidências, versões de artefato | Substituição do e-mail de abertura |
+| WhatsApp / conversa informal | Esclarecimentos rápidos apenas | Aprovar baseline, preço ou prazo |
+
+A GP responde pedidos informais redirecionando ao canal formal antes de qualquer compromisso de equipe.
+
+## Referências cruzadas
+
+- PO (Decisão 3): **Bruno Ferraz**, validando Paula e Dra. Helena — RACI §6.
+- Defeitos e aceite: [11 Plano de Qualidade](11%20Plano%20de%20Qualidade.md) §6 e PDF §7.4.
+- Valores ilustrativos do exemplo WhatsApp: conferir [05 Custos](../pessoa_3/05%20Planejamento%20de%20Custos.md) §5 antes de aprovar CR que altere baseline.

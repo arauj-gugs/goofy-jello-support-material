@@ -3,7 +3,7 @@
 Documento único de referência para integração e defesa (#27). Cada seção aponta para o artefato publicado em `main`.
 
 **Grupo:** Jenifer Gomes (P1) · Philipe Gonçalves (P2) · Gustavo Vieira (P3) · Luís Gabriel (P4)  
-**Kick-off:** 26/11/2026 · **Go-live:** 03/03/2027 · **Custo direto plano:** R$ 151.550 / teto R$ 158.000
+**Kick-off:** 26/11/2026 · **Go-live:** 03/03/2027 · **Custo direto plano:** R$ 151.550 / teto R$ 158.000 · **WBS:** 1.096 h (04 = 05) · **Governança:** Ricardo Salles (A) · Camila Rocha (GP)
 
 ## Visão executiva
 
@@ -39,7 +39,7 @@ Documento único de referência para integração e defesa (#27). Cada seção a
 
 ## Revisão cruzada
 
-Status detalhado: [revisao-cruzada-status.md](revisao-cruzada-status.md) (issue #26).
+Status detalhado: [revisao-cruzada-status.md](revisao-cruzada-status.md) (issue #26) — documentação fechada; premissas **P-01–P-07** e contingência **P-01/PB-15** no planejamento. Kick-off fictício: [00-reuniao-de-decisoes.md](00-reuniao-de-decisoes.md).
 
 ## Próximos passos do grupo (fora deste PDF)
 

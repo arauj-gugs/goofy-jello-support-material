@@ -2,7 +2,7 @@
 
 **Projeto:** Vida+ — Sistema de Gestão e Agendamento de Clínica  
 **Responsável pelo artefato:** Pessoa 2 — Escopo e produto  
-**Status:** Rascunho inicial para validação na reunião do grupo  
+**Status:** Alinhado à Decisão 2 e à revisão cruzada (#26)  
 **Base:** handoff `VidaMais - KT Projetos - Goofy Jello.pdf`, [Decisão 2](planejamento/00-reuniao-de-decisoes.md) da reunião de decisões e definições das Aulas 02, 03 e 07.
 
 ## 1. Objetivo
@@ -107,20 +107,27 @@ Identificadores estáveis para backlog, roadmap e riscos (Aula 15 — coerência
 
 Mudanças que alterem esta fronteira seguem o [Fluxo de Mudanças (artefato 10)](pessoa_4/Fluxo de Mudança.md): solicitar, analisar impacto, decidir formalmente e atualizar artefatos.
 
+### 5.4 Fronteira do primeiro go-live (síntese)
+
+- **Unidades:** operação plena nas **quatro unidades atuais** em **03/03/2027**; **Indaiatuba (Z-06)** fora da operação (cadastro estrutural opcional, sem agenda/carga/treinamento).
+- **Produto baseline:** **PB-01 a PB-14** + módulos da seção 3; **PB-15 / VidaFin** entra na linha de base **somente** se **P-01** for atendida até **16/12/2026**; caso contrário retira-se da baseline e o go-live mantém **03/03** sem faturamento automático.
+- **Notificações:** baseline **e-mail** se **P-03** não fechar a tempo; **Z-01** (WhatsApp), **Z-02** (reagendamento pelo paciente) e **Z-07** (dashboard executivo) permanecem **Depois / CR**; **Z-03** (encaixe/bloqueio) **dentro** com parametrização por permissão.
+- **Critérios de aceite:** verificáveis por cartão no [08 Product Backlog](08%20Product%20Backlog.md) (PDF §6.5 e Anexo C); homologação do cliente em até **5 dias úteis** após cada disponibilização (§7.1).
+
 ## 6. Premissas
 
 Premissas derivadas das pendências P-01 a P-08 (seção 11). Cada linha regista dono do lado **Vida+**, data-limite para o planejamento e impacto se não se confirmar (base para Matriz de Riscos da Pessoa 4).
 
 | ID | Estamos planejando considerando que… | Dono (cliente) | Data-limite | Se não se confirmar |
 |---|---|---|---|---|
-| P-01 | a documentação técnica, credenciais e ambiente de teste da API do **VidaFin** estarão disponíveis para homologação. | Marcelo Viana | 16/12/2026 | Integração não entra na linha de base; go-live sem promessa de faturamento automático até nova decisão. |
+| P-01 | a documentação técnica, credenciais e ambiente de teste da API do **VidaFin** estarão disponíveis para homologação. | Marcelo Viana | 16/12/2026 | **PB-15** sai da baseline; go-live em 03/03 mantido sem promessa de faturamento automático até nova decisão. |
 | P-02 | o cliente entrega **amostra e layout** da base de pacientes compatíveis com a carga inicial acordada. | Paula Ribeiro (exportação com Marcelo Viana / TI) | 16/12/2026 | Carga inicial essencial sai da linha de base ou reduz escopo validável. |
 | P-03 | o **canal de mensageria** em produção, fornecedor e responsável pelos custos estão definidos. | Juliana Reis (com Marcelo Viana) | 16/12/2026 | Entrega 2 valida notificações por **e-mail**; WhatsApp permanece fora (Z-01). |
 | P-04 | a **lista final de perfis e usuários-chave** para homologação está aprovada. | Paula Ribeiro | 09/12/2026 | Desenho de acessos e cenários de teste não fecha; risco de retrabalho em segurança. |
 | P-05 | a **disponibilidade da Dra. Helena Moraes** para validações clínicas está formalizada. | Ricardo Salles | 02/12/2026 | GP escala ao sponsor; validações clínicas não podem atrasar o cronograma em silêncio. |
 | P-06 | a **política de cancelamento** e as regras de **remarcação pela equipe** estão escritas e aceitas. | Dra. Helena Moraes (validação operacional: Paula Ribeiro) | 16/12/2026 | Portal só implementa cancelamento já aprovado; reagendamento autônomo do paciente não entra (Z-02). |
 | P-07 | os **dados de salas e recursos por unidade** estão na planilha padronizada. | Paula Ribeiro | 16/12/2026 | Configuração da agenda da Entrega 1 não cobre as quatro unidades em cenário real. |
-| P-08 | a Vida+ **indica formalmente** o responsável pelo tratamento de dados/LGPD (Ricardo providencia a indicação, não sendo ele o encarregado por presunção). | Ricardo Salles | 02/12/2026 | Sem validação de acesso, retenção e uso de dados reais em homologação/aceite. |
+| P-08 | a Vida+ **indica formalmente** o responsável pelo tratamento de dados/LGPD (Ricardo providencia a indicação, não sendo ele o encarregado por presunção). *Kick-off 26/11/2026 (case): função **Encarregado(a) de Dados e Privacidade (Vida+)** registrada; contato técnico inicial Marcelo.* | Ricardo Salles | 02/12/2026 | Sem validação de acesso, retenção e uso de dados reais em homologação/aceite. |
 
 ## 7. Restrições
 
@@ -166,8 +173,8 @@ Limites do projeto classificados conforme Aula 07. Alteração de escopo macro, 
 - **Pessoa 1:** validações de regras clínicas e operacionais (Dra. Helena, Paula) ligam-se a P-05 e P-06.  
 - **08 Backlog** ([08 Product Backlog](08%20Product%20Backlog.md)) / **09 Roadmap** ([09 Roadmap](09%20Roadmap.md)): apenas itens **dentro** e habilitadores; lista “Depois / CR” com Z-01, Z-02 e Z-07.  
 
-## 9. Pendências para validação do grupo
+## 9. Coerência confirmada
 
-- Confirmar este rascunho na reunião e alinhar com [Decisão 2](planejamento/00-reuniao-de-decisoes.md) preenchida.  
-- Decisão 1 (abordagem híbrida) permanece para confirmação formal na reunião.  
-- Revisão cruzada após publicação do backlog: cada funcionalidade do go-live deve aparecer em Escopo → Backlog → Roadmap → Cronograma → Riscos.
+- [Decisão 1–2](planejamento/00-reuniao-de-decisoes.md) e §5.4 registradas; revisão cruzada #26 fechada.
+- Rastreio go-live: Escopo → [08 Backlog](08%20Product%20Backlog.md) → [09 Roadmap](09%20Roadmap.md) → [04 Cronograma](../pessoa_3/04%20Cronograma.md) → [06 Riscos](../pessoa_4/Matriz%20de%20Riscos.md).
+- **Kick-off fictício:** P-08 (função Encarregado) e líderes de recepção unidades 1–4 — [00-reuniao](../planejamento/00-reuniao-de-decisoes.md). Premissas **P-01 a P-07** seguem com datas-limite no cronograma.

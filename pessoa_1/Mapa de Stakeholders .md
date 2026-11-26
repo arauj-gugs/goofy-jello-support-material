@@ -256,13 +256,11 @@ não contratados ou definidos.
 
   ------------------------------------------------------------------------------------------------------------
 
-  Camila Rocha  Gerente de         Alto, conforme           Alto Gerenciar de    Confirmar se será a
-                Projetos Sênior.       autoridade                perto           gerente responsável
-                Capacidade inicial       delegada                                ou apoio à gestão;
+  Camila Rocha  Gerente de         Alto, conforme           Alto Gerenciar de    **GP formal**
+                Projetos Sênior.       autoridade                perto           (Decisão 3 /
+                Capacidade inicial       delegada                                revisão cruzada);
                 informada: 12                                                    alinhar
-                h/semana.                                                        disponibilidade,
-                                                                                 entregas e
-                                                                                 responsabilidades.
+                h/semana.                                                        disponibilidade.
 
   ------------------------------------------------------------------------------------------------------------
 
@@ -332,9 +330,19 @@ planejamento.
 
 ### 4.3. Terceiros e fornecedores
 
-Os terceiros ainda não estão totalmente identificados. Portanto, os
-grupos abaixo são stakeholders potenciais, cuja classificação deverá ser
-revisada assim que os fornecedores e seus contratos forem definidos.
+Decisão do grupo na revisão cruzada (sem inventar empresas ou contatos
+ausentes no handoff):
+
+| Integração / serviço | Papel no go-live | Pessoas no handoff | Observação |
+|---|---|---|---|
+| **VidaFin** | API interna Vida+ | **Marcelo Viana** (TI), **Fernanda Lopes** (negócio) | Sem fornecedor externo na matriz |
+| **Mensageria baseline** | E-mail corporativo (P-03) | **Juliana Reis** (conteúdo), **Marcelo** (produção) | WhatsApp (Z-01) não contratado no go-live |
+| **WhatsApp / API mensageria** | Depois / CR | — | Monitorar se P-03 evoluir |
+| **Cloud / infra produção** | Cliente (fora do valor implantação) | **Marcelo Viana** | Provedor a confirmar na contratação |
+
+*Tabela legada abaixo — superseded pelo quadro de decisão do grupo acima; manter apenas como rastreio do handoff.*
+
+Tabela legada (handoff):
 
   =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
   Stakeholder /    Participação          Poder          Interesse Classificação          Ação necessária
@@ -411,7 +419,7 @@ Além dos representantes nomeados, o projeto envolve grupos que serão impactado
 
   =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
    
-As equipes de recepção utilizarão o sistema nas atividades de cadastro, agendamento, check-in e encaixes. Seu principal interesse é simplificar a rotina operacional, reduzir conflitos de agenda e diminuir o retrabalho. São stakeholders **externos**, pertencentes à estrutura da Vida+, com **poder médio** e **interesse alto**; devem ser **mantidos informados e envolvidos** no levantamento de requisitos, validação dos fluxos, testes e treinamento. Paula Ribeiro é a coordenadora e usuária-chave indicada no handoff, mas a participação de representantes das quatro unidades ainda precisa ser confirmada.
+As equipes de recepção utilizarão o sistema nas atividades de cadastro, agendamento, check-in e encaixes. São stakeholders **externos**, com **poder médio** e **interesse alto**. **Paula Ribeiro** coordena; **quatro líderes de recepção** (unidades em operação **1–4**) indicados no **kick-off 26/11/2026** — roster Paula; nomes não constam no handoff público (P-RACI-08).
 
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------
   Resumo:
@@ -577,10 +585,11 @@ Stakeholders externos — fornecedores e terceiros
 
 Complemento da classificação por quadrante: considerando os grupos acrescentados, a Recepção das quatro unidades, os médicos, os pacientes e a unidade de Indaiatuba também devem ser considerados no grupo de baixo ou médio poder e alto interesse — manter informado e envolver. Marina Couto e Henrique Tavares devem ser mantidos informados, acionando-os para esclarecimentos relativos às etapas Comercial e Pré-vendas. O fornecedor de mensageria deve ser gerenciado de perto durante a escolha e a integração, pois sua influência técnica pode aumentar conforme a solução contratada. Os demais fornecedores permanecem em monitoramento até que sua participação seja confirmada.
 
-## 6. Pontos de atenção e pendências para validação
+## 6. Premissas P-01 a P-08 e status no kick-off
 
-As seguintes pendências podem alterar a classificação ou o nível de
-envolvimento de determinados stakeholders:
+Legenda **Status kick-off:** **Premissa** = condição contratual com data-limite no plano; **Fechado (função/papel)** = registrado no kick-off fictício **26/11/2026** (case acadêmico).
+
+As linhas abaixo descrevem premissas do handoff; P-08 e recepção por unidade foram fechadas como **função/papel** no kick-off — ver [00-reuniao](../planejamento/00-reuniao-de-decisoes.md).
 
   ------------------------------------------------------------------------------------------------------------
     ID                Pendência                   Stakeholders                       Impacto na
@@ -641,40 +650,22 @@ envolvimento de determinados stakeholders:
 
   ------------------------------------------------------------------------------------------------------------
 
-Destaque — P-08: ausência de responsável formal pela LGPD no cliente
+Destaque — P-08: função Encarregado registrada no kick-off
 
-A pendência P-08 deve receber atenção prioritária na governança. Até o momento do handoff, a Vida+ ainda não havia indicado quem será responsável, do lado do cliente, pelas decisões e atribuições relacionadas ao tratamento de dados pessoais.
+No handoff original não havia nome para LGPD. No **kick-off fictício (26/11/2026)** o grupo registrou a função **Encarregado(a) de Dados e Privacidade (Vida+)** — **Ricardo Salles** arquiva; **contato técnico inicial: Marcelo Viana** até a Vida+ publicar o titular. Decisões de privacidade passam a envolver essa função como **C** nas validações; a Goofy Jello mantém controles técnicos e evidências de teste.
 
-Ricardo Salles é o responsável indicado para providenciar essa definição, mas isso não significa que ele tenha sido designado como responsável pela LGPD. É necessário que a Vida+ indique formalmente a pessoa ou função responsável e esclareça suas atribuições.
+## 7. Registro pós-revisão cruzada
 
-A ausência dessa definição pode dificultar a aprovação de regras de acesso, o tratamento de dados de pacientes, as decisões sobre compartilhamento de informações e as validações de segurança e privacidade. A Goofy Jello também deverá esclarecer e cumprir as responsabilidades que lhe cabem no tratamento de dados, conforme seu papel no projeto.
-
-Ação necessária: solicitar a indicação formal do responsável pela LGPD no lado da Vida+, registrar a decisão e envolvê-lo nas definições relacionadas a dados pessoais, acessos, integrações e segurança da informação.
-
-## 7. Proximos pasos de governança
-
-1.  Formalizar o sponsor e os responsáveis por aprovação: confirmar
-    Ricardo Salles como sponsor do cliente e identificar quem aprovará
-    cada grupo de entregas.
-2.  Confirmar a Gerência de Projetos da Goofy Jello: resolver a
-    divergência entre a indicação de Henrique Tavares no handoff e a
-    designação ainda pendente pela Diretoria de Operações.
-3.  Definir representantes com poder de decisão: estabelecer
-    substitutos e responsáveis por validações clínicas, técnicas,
-    financeiras e operacionais.
-4.  Manter um registro de stakeholders atualizado: revisar poder,
-    interesse, influência e estratégia de comunicação sempre que houver
-    mudança de escopo, fornecedor ou governança.
-5.  Formalizar a participação de terceiros: identificar
-    fornecedores, contatos, responsabilidades, dependências e prazos,
-    principalmente para VidaFin, mensageria e infraestrutura.
-6.  Incluir os pacientes na análise de impacto: embora não sejam
-    responsáveis pelas decisões do projeto, são usuários finais e serão
-    diretamente afetados pela experiência de cadastro, agenda,
-    atendimento e comunicação.
-7.  Vincular a comunicação aos marcos do projeto: acompanhar as
-    validações e dependências necessárias para a primeira operação
-    produtiva prevista para 03/03/2027.
+| # | Item | Status |
+|---:|---|---|
+| 1 | Sponsor e aprovações executivas (**Ricardo Salles**) | Feito (RACI / Decisão 3) |
+| 2 | GP Goofy Jello (**Camila Rocha**) | Feito — Henrique/Marina permanecem **I** comercial no handoff |
+| 3 | Aceite centralizado + validação por área (Paula, Fernanda, Dra. Helena, Marcelo) | Feito |
+| 4 | Registro de stakeholders e comunicação | Rotina — [07 Comunicação](07%20Plano%20de%20Comunicação.md) §7.1 |
+| 5 | VidaFin e mensageria (papéis internos) | Feito — §4.3; cloud/provedor segue com Marcelo |
+| 6 | Pacientes como usuários finais | Mantido na análise de impacto |
+| 7 | Comunicação nos marcos até **03/03/2027** | Mantido — [07 Comunicação](07%20Plano%20de%20Comunicação.md) §4 |
+| 8 | P-08 função Encarregado + líderes recepção U1–4 | Feito no kick-off fictício — [00-reuniao](../planejamento/00-reuniao-de-decisoes.md) |
 
 ## 8. Premissas e limitações
 
@@ -684,7 +675,8 @@ Ação necessária: solicitar a indicação formal do responsável pela LGPD no 
     confirmada com os responsáveis do cliente e da Goofy Jello.
 -   Pacientes foram considerados como grupo de usuários finais; não há
     representantes individuais identificados no material recebido.
--   Os fornecedores de VidaFin, mensageria e infraestrutura ainda
+-   VidaFin e mensageria go-live registrados como papéis internos (§4.3);
+    provedor cloud permanece com o cliente. Fornecedores adicionais ainda
     precisam ser identificados ou confirmados.
 -   Não foram atribuídos nomes ou responsabilidades a terceiros sem
     evidência no material.

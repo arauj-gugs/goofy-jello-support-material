@@ -2,7 +2,7 @@
 
 **Projeto:** Vida+ — Sistema de Gestão e Agendamento de Clínica  
 **Responsável pelo artefato:** Jenifer Gomes (Pessoa 1 — Pessoas e governança)  
-**Status:** Versão para validação na reunião do grupo (A\* = autoridade provisória até confirmação Vida+)
+**Status:** Consolidado na revisão cruzada — governança Decisão 3; P-RACI-05/06/07/08 fechados no kick-off fictício (case acadêmico)
 
 ## 1. Objetivo
 
@@ -17,7 +17,7 @@ planejamento e governança. As atribuições foram construídas a partir das
 responsabilidades das seções 7.2 e 7.3, das pessoas e funções da seção 8
 e dos stakeholders da seção 10.1.
 
-A **Decisão 3** e o **Fluxo de Mudanças** (Pessoa 4) já estão publicados e orientam o mapeamento Scrum e a linha “Aprovação de mudança”. Pendências de formalização (GP, sponsor, LGPD) permanecem na seção 7.
+A **Decisão 3** e o **Fluxo de Mudanças** (Pessoa 4) orientam o mapeamento Scrum e a linha “Aprovação de mudança”. **Ricardo Salles** é o aprovador final do cliente; **Camila Rocha** é GP formal. Aceite de entrega centralizado no sponsor (P-RACI-04). P-08 (função Encarregado) registrada no kick-off — ver [00-reuniao](../planejamento/00-reuniao-de-decisoes.md).
 
 ## 2. Legenda e critérios
 
@@ -165,37 +165,34 @@ atividade.
 
   Testes internos           I        I         C         C          C         I        A        C          C        R       R         R        C          I        I
 
-  Homologação             A\*        C         R         C          R         C        C        C          C        I       I         C        I          I        I
+  Homologação               A        C         R         C          R         C        C        C          C        I       I         C        I          I        I
 
-  Carga de dados            I        I         C       A\*          I         I        C        C          I        R       R         C        C          I        I
+  Carga de dados            I        I         C         A          I         I        C        C          I        R       R         C        C          I        I
 
-  Integração                I        I         I       A\*          R         I        C        C          I        R       C         R        C          I        I
+  Integração                I        I         I         A          R         I        C        C          I        R       C         R        C          I        I
   VidaFin                                                                                                                                                   
 
   Treinamento               I        C         A         C          C         C        C        R          C        I       I         C        I          I        I
 
-  Go-live                 A\*        C         R         R          C         I        R        I          I        R       R         R        R          I        I
+  Go-live                   A        C         R         R          C         I        R        I          I        R       R         R        R          I        I
 
-  Aprovação de            A\*        C         C         C          C         C        R        C          C        C       C         C        C          I        I
+  Aprovação de              A        C         C         C          C         C        R        C          C        C       C         C        C          I        I
   mudança                                                                                                                                                   
 
-  Aceite de entrega       A\*        C         R         C          C         C        R        I          I        I       I         C        I          I        I
+  Aceite de entrega         A        C         R         C          C         C        R        I          I        I       I         C        I          I        I
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-\*\*Atenção aos A marcados com asterisco (\*):\*\* são atribuições
-provisórias de planejamento, utilizadas para manter um único A em cada
-linha nesta versão. Não substituem uma aprovação formal nem resolvem
-pendências de governança. Os motivos e as confirmações necessárias estão
-detalhados na seção 6.
+**Coordenação TI cliente:** **Marcelo Viana** é **A** em carga de dados e
+integração VidaFin (API interna Vida+). Homologação, go-live, mudança e
+aceite têm **Ricardo Salles** como **A** (Decisão 3).
 
 ## 5. Justificativa das atribuições
 
 ### 5.1. Descoberta
 
 -   **A --- Camila Rocha:** coordena a atividade de planejamento e
-    organização do trabalho pela Goofy Jello, conforme sua função de
-    Gerente de Projetos Sênior. A designação formal ainda precisa ser
-    confirmada pela Diretoria de Operações.
+    organização do trabalho pela Goofy Jello, como **Gerente de Projetos**
+    formal do contrato (Decisão 3 / P-RACI-03).
 -   **R --- Bruno Ferraz:** conduz o levantamento, a análise e a
     documentação de requisitos e regras de negócio.
 -   **C --- Paula Ribeiro, Dra. Helena Moraes, Marcelo Viana, Fernanda
@@ -259,10 +256,10 @@ detalhados na seção 6.
 
 ### 5.6. Homologação
 
--   **A --- Ricardo Salles (provisório):** indicado nesta versão como
-    responsável final do cliente pela aprovação executiva da
-    homologação. A autoridade de aceite por tipo de entrega ainda
-    precisa ser formalizada pela Vida+.
+-   **A --- Ricardo Salles:** responsável final do cliente pela
+    aprovação executiva da homologação integrada e das decisões de
+    aceite (centralizado no sponsor; validações por área permanecem com
+    os **R** indicados abaixo).
 -   **R --- Paula Ribeiro:** participa da homologação dos processos
     operacionais de recepção.
 -   **R --- Fernanda Lopes:** participa da validação funcional dos
@@ -279,10 +276,9 @@ detalhados na seção 6.
 
 ### 5.7. Carga de dados
 
--   **A --- Marcelo Viana (provisório):** indicado como responsável pela
-    coordenação técnica do lado da Vida+, por ser o ponto focal de TI. A
-    aprovação da qualidade e da completude da base ainda precisa ser
-    confirmada.
+-   **A --- Marcelo Viana:** coordenação técnica do lado da Vida+
+    (ponto focal de TI); aprovação da completude da base com apoio de
+    Paula Ribeiro na conferência operacional.
 -   **R --- Rafael Nunes e Diego Prado:** executam as atividades
     técnicas de carga e tratamento dos dados.
 -   **C --- Paula Ribeiro:** apoia a conferência dos dados relacionados
@@ -294,10 +290,8 @@ detalhados na seção 6.
 
 ### 5.8. Integração VidaFin
 
--   **A --- Marcelo Viana (provisório):** indicado como responsável pela
-    coordenação técnica da integração pelo lado da Vida+, como ponto
-    focal de TI. A autoridade final de aprovação técnica precisa ser
-    confirmada.
+-   **A --- Marcelo Viana:** coordenação técnica da integração pelo lado
+    da Vida+ (ponto focal de TI).
 -   **R --- Rafael Nunes:** conduz a implementação backend da
     integração.
 -   **R --- Fernanda Lopes:** valida os eventos e resultados
@@ -306,8 +300,11 @@ detalhados na seção 6.
 -   **C --- Bruno Ferraz, Camila Rocha, Diego Prado e Igor Mendes:**
     apoiam requisitos, coordenação, implementação complementar e
     ambiente.
--   O fornecedor do VidaFin não foi identificado nos materiais e, por
-    isso, não foi incluído como pessoa na matriz.
+-   **VidaFin:** módulo/API interna Vida+ — sem fornecedor externo na
+    matriz. Validação de negócio: **Fernanda Lopes** (**R**).
+-   **Mensageria (go-live):** baseline **e-mail corporativo** (P-03);
+    **Juliana Reis** (templates) e **Marcelo** (produção). WhatsApp (Z-01)
+    permanece fora até CR formal.
 
 ### 5.9. Treinamento
 
@@ -319,17 +316,17 @@ detalhados na seção 6.
     Reis, Lívia Monteiro, Camila Rocha e Natália Campos:** contribuem
     conforme os processos clínicos, técnicos, financeiros, comunicação,
     usabilidade, coordenação e dúvidas de testes.
--   Os representantes das equipes de recepção das quatro unidades ainda
-    precisam ser confirmados.
+-   **R (operacional por unidade):** quatro **líderes de recepção** (unidades
+    em operação **1–4**), roster por **Paula Ribeiro**, indicados no
+    **kick-off 26/11/2026** para homologação e treinamento — nomes não
+    constam no handoff; participam como **C** nas atividades de treinamento.
 
 ### 5.10. Go-live
 
--   **A --- Ricardo Salles (provisório):** indicado como responsável
-    pela autorização executiva da entrada em operação pelo cliente. A
-    governança da Vida+ deve confirmar formalmente essa autoridade.
+-   **A --- Ricardo Salles:** autoriza a entrada em operação (go/no-go
+    executivo) com base nas evidências consolidadas pela equipe.
 -   **R --- Camila Rocha:** coordena a implantação e a preparação da
-    entrada em produção, sujeita à confirmação de sua designação como
-    Gerente de Projetos.
+    entrada em produção, como GP do projeto.
 -   **R --- Marcelo Viana:** coordena as condições técnicas, os acessos
     e as dependências pelo lado da Vida+.
 -   **R --- Paula Ribeiro:** acompanha a preparação operacional.
@@ -341,10 +338,9 @@ detalhados na seção 6.
 
 ### 5.11. Aprovação de mudança
 
--   **A --- Ricardo Salles (provisório):** utilizado somente para manter
-    a matriz preenchida enquanto o Fluxo de Mudanças da Pessoa 4 não foi
-    publicado. **Não é possível confirmar que Ricardo seja o aprovador
-    correto sem consultar esse fluxo.**
+-   **A --- Ricardo Salles:** aprova, rejeita, adia ou aceita mudanças
+    mediante troca de prioridade/escopo que alterem baseline contratual
+    (coerente com o [Fluxo de Mudanças](../pessoa_4/Fluxo%20de%20Mudança.md)).
 -   **R --- Camila Rocha:** recebe e registra a solicitação, coordena a
     análise de impacto e acompanha a decisão.
 -   **C --- Bruno Ferraz, Lívia Monteiro, Rafael Nunes, Diego Prado,
@@ -355,16 +351,12 @@ detalhados na seção 6.
 -   **I --- Henrique Tavares e Marina Couto:** podem receber informação
     ou ser acionados para esclarecer premissas da negociação e
     compromissos comerciais.
--   **Regra obrigatória:** assim que o Fluxo de Mudanças for publicado,
-    o A desta linha deverá ser ajustado para corresponder exatamente à
-    autoridade de aprovação definida nele. A matriz não deve manter um
-    aprovador diferente do fluxo.
-
 ### 5.12. Aceite de entrega
 
--   **A --- Ricardo Salles (provisório):** representa a aprovação final
-    do cliente nesta versão. A Vida+ precisa confirmar se o aceite será
-    centralizado no sponsor ou delegado por tipo de entrega.
+-   **A --- Ricardo Salles:** aprovação final do cliente; aceite
+    **centralizado no sponsor** (homologação, entregas incrementais e
+    go-live). Áreas operacionais e técnicas conduzem validação (**R**) e
+    enviam evidências a Camila.
 -   **R --- Paula Ribeiro:** coordena a validação operacional e
     consolida as evidências da área usuária.
 -   **R --- Camila Rocha:** organiza a disponibilização da entrega,
@@ -384,12 +376,12 @@ Papéis Scrum (Aula 20) mapeados em pessoas do handoff, **sem organograma parale
 | Papel Scrum | Pessoa(s) | Papel no Vida+ / na Decisão 3 |
 |---|---|---|
 | **Product Owner** (prioridade do backlog — lado Goofy Jello) | **Bruno Ferraz** | Prioriza e refina o backlog no dia a dia; **valida** com **Paula Ribeiro** (aceite operacional da recepção) e **Dra. Helena Moraes** (regras clínicas de agenda). Paula e a Dra. Helena **não** substituem Bruno como PO contratado — são consultas obrigatórias para decisões de produto. |
-| **Scrum Master** (facilitação e impedimentos) | **Camila Rocha** | GP sênior: condução do projeto, integração dos planos, cadência e escalonamento. Designação formal pela Diretoria de Operações ainda a confirmar no cliente (ver P-RACI-03). |
+| **Scrum Master** (facilitação e impedimentos) | **Camila Rocha** | GP formal: condução do projeto, integração dos planos, cadência e escalonamento (Decisão 3 / P-RACI-03). |
 | **Developers** | **Lívia Monteiro**, **Rafael Nunes**, **Diego Prado**, **Natália Campos**, **Igor Mendes** (e **Bruno** na frente de negócio quando não está na priorização) | Construção multidisciplinar alinhada ao [cronograma](../pessoa_3/04%20Cronograma.md) e [backlog](../pessoa_2/08%20Product%20Backlog.md). |
 
 **Governança além do Scrum (Decisão 3):** trade-off executivo (prazo, escopo grande, custo) → **Ricardo Salles**; acessos/API/ambiente → **Marcelo Viana**; VidaFin → **Fernanda Lopes + Marcelo**; templates de mensagem → **Juliana Reis**.
 
-**Aprovação de mudança (coerência com artefato 10):** na linha “Aprovação de mudança” desta matriz, **Ricardo Salles** permanece **A\*** (autoridade de trade-off / baseline contratual). **Camila Rocha** é **R** (registro, coordenação da análise de impacto). O [Fluxo de Mudanças](../pessoa_4/Fluxo%20de%20Mudança.md) usa o mesmo par — não há aprovador alternativo por nível de impacto até a Vida+ formalizar delegação.
+**Aprovação de mudança (coerência com artefato 10):** na linha “Aprovação de mudança”, **Ricardo Salles** é **A** (trade-off / baseline contratual). **Camila Rocha** é **R** (registro e coordenação da análise de impacto). O [Fluxo de Mudanças](../pessoa_4/Fluxo%20de%20Mudança.md) usa o mesmo par — sem aprovador alternativo por nível de impacto.
 
 Henrique Tavares e Marina Couto permanecem como contatos de Pré-vendas e
 Comercial para esclarecimentos sobre premissas e compromissos da
@@ -397,70 +389,64 @@ passagem de bastão. Não foram adicionados ao Scrum Team, pois as
 informações disponíveis não indicam que integrem a equipe de
 desenvolvimento do produto.
 
-## 7. Pendências para validação
+## 7. Registro de pendências (P-RACI)
 
   -------------------------------------------------------------------------
   ID                Pendência         Impacto na matriz   Ação necessária
   ----------------- ----------------- ------------------- -----------------
-  P-RACI-02         Autoridade formal O A de "Aprovação    Ricardo Salles
-                    de Ricardo como   de mudança" está    ratifica com a
-                    aprovador de      alinhado ao Fluxo   Vida+ na
-                    mudanças na Vida+ 10; A* indica       mobilização, se
-                                      provisório até      necessário.
-                                      confirmação do      
-                                      sponsor.            
+  P-RACI-02         Autoridade formal **Resolvido** na    Ricardo Salles
+                    de Ricardo como   revisão cruzada:    é **A** em
+                    aprovador de      Ricardo **A** em    mudança,
+                    mudanças na Vida+ mudança, alinhado   homologação,
+                                      ao Fluxo 10.        go-live e
+                                                          aceite (Decisão
+                                                          3).
 
-  P-RACI-03         Gerente de        A coordenação       Formalizar a
-                    Projetos          atribuída a Camila  designação pela
-                    formalmente       e seu mapeamento    Diretoria de
-                    designado ainda   como Scrum Master   Operações e
-                    não confirmado    são provisórios. O  atualizar a
-                                      handoff menciona    matriz.
-                                      Henrique, mas       
-                                      também registra que 
-                                      a designação        
-                                      depende da          
-                                      Diretoria de        
-                                      Operações.          
+  P-RACI-03         Gerente de        **Resolvido:**      Camila Rocha
+                    Projetos          Camila Rocha como GP como GP formal e
+                    formalmente       formal e Scrum      Scrum Master
+                    designado ainda   Master (Decisão 3). (seção 6).
+                    não confirmado                        
 
-  P-RACI-04         Autoridade de     Ricardo foi         Confirmar se o
-                    aceite por tipo   indicado            sponsor
-                    de entrega não    provisoriamente     centraliza o
-                    formalizada       como A em           aceite ou se
-                                      homologação,        haverá
-                                      go-live e aceite.   aprovadores
-                                                          delegados por
-                                                          área ou tipo de
-                                                          entrega.
+  P-RACI-04         Autoridade de     **Resolvido:**      Aceite
+                    aceite por tipo   aceite centralizado centralizado no
+                    de entrega não    no sponsor          sponsor; validação
+                    formalizada       (Ricardo **A**);    por área via **R**
+                                      validação por área  (Paula, Fernanda,
+                                      permanece com os    etc.) sem segundo
+                                      **R** da matriz.    **A** por entrega.
 
-  P-RACI-05         Alocação efetiva  As horas semanais   Confirmar a
-                    da equipe não     da seção 8 são      disponibilidade e
-                    confirmada        capacidades         a distribuição
-                                      iniciais, não       das atividades no
-                                      alocações           planejamento.
-                                      definitivas.        
+  P-RACI-05         Alocação efetiva  **Resolvido:**      Baseline 1.096 h
+                    da equipe não     plano em artefatos  no 04 e 05;
+                    confirmada        04 e 05; alteração  alteração só via
+                                      só via mudança      Fluxo 10.
+                                      formal.
 
-  P-RACI-06         Fornecedor        Não há contatos     Identificar
-                    VidaFin e demais  externos nomeados   fornecedores e
-                    terceiros não     para assumir        contatos técnicos
-                    identificados     responsabilidades   quando definidos.
-                                      na matriz.          
+  P-RACI-06         Fornecedor        **Resolvido:**      VidaFin = API
+                    VidaFin e demais  papéis internos —   interna;
+                    terceiros não     Marcelo (TI),       Marcelo +
+                    identificados     Fernanda (negócio); Fernanda;
+                                      mensageria =        mensageria =
+                                      e-mail baseline     e-mail (Juliana
+                                      (Juliana/Marcelo).  + Marcelo);
+                                      WhatsApp fora até   sem fornecedor
+                                      CR.                 SaaS no go-live.
 
-  P-RACI-07         Responsável por   Decisões sobre      Formalizar o
-                    dados/LGPD na     dados pessoais,     responsável do
-                    Vida+ não         acessos e           lado da Vida+ e
-                    designado         privacidade podem   incluí-lo nas
-                                      exigir participação atividades
-                                      específica.         pertinentes,
-                                                          conforme sua
-                                                          autoridade.
+  P-RACI-07         Responsável por   **Resolvido         Função
+                    dados/LGPD na     (kick-off):**        Encarregado(a)
+                    Vida+             função Encarregado  Dados/Privacidade
+                    designado         de Dados designada  Vida+ no kick-off;
+                                      26/11; Marcelo      Marcelo apoia
+                                      **C** técnico até   técnico; titular
+                                      titular publicado.  nomeado pela
+                                                          Vida+ depois.
 
-  P-RACI-08         Responsáveis      Treinamento e       Confirmar
-                    locais e          validação           representantes
-                    representantes    operacional podem   das unidades,
-                    das quatro        exigir participação médicos e equipes
-                    unidades não      de pessoas ainda    de recepção.
-                    confirmados       não identificadas.  
+  P-RACI-08         Responsáveis      **Resolvido         Quatro líderes
+                    locais e          (kick-off):**        recepção
+                    representantes    quatro líderes de   unidades 1–4;
+                    das quatro        recepção (U1–4),    roster Paula.
+                    unidades          roster Paula; kick-
+                    confirmados       off 26/11/2026.     
   -------------------------------------------------------------------------
 
 ## 8. Premissas e limitações
@@ -476,15 +462,16 @@ desenvolvimento do produto.
 -   Atribuições individuais que não estão expressamente formalizadas
     foram propostas com base nas funções e devem ser validadas pelos
     responsáveis.
--   A matriz contém exatamente um A por atividade. Os A marcados com
-    asterisco são provisórios e dependem das confirmações indicadas.
--   A capacidade semanal da equipe da Goofy Jello é inicial e precisa
-    ser confirmada no planejamento.
--   Fornecedores e representantes não identificados não foram inventados
-    nem incluídos como pessoas.
--   A pendência P-08 do documento de stakeholders permanece válida:
-    Ricardo Salles deve providenciar a definição do responsável por
-    LGPD, mas não foi designado como responsável por LGPD por hora.
+-   A matriz contém exatamente um **A** por atividade. Governança
+    executiva (Ricardo/Camila) e coordenação TI Marcelo (carga/VidaFin)
+    fechadas na revisão cruzada.
+-   Capacidade efetiva adotada no [04 Cronograma](../pessoa_3/04%20Cronograma.md)
+    e [05 Custos](../pessoa_3/05%20Planejamento%20de%20Custos.md) (1.096 h).
+-   Terceiros externos sem nome no handoff **não** foram inventados;
+    VidaFin e mensageria registrados como papéis internos Vida+ (§5.8).
+-   **P-08:** função **Encarregado(a) de Dados e Privacidade (Vida+)**
+    registrada no kick-off fictício (case acadêmico); sem nome individual
+    no handoff; Marcelo como contato técnico inicial.
 -   Decisão 3 e Fluxo de Mudanças (artefato 10) publicados em `main`; revisar apenas se a Vida+ alterar autoridades na mobilização.
 
 ## 9. Referências

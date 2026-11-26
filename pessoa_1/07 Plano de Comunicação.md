@@ -2,7 +2,7 @@
 
 **Projeto:** Vida+ — Sistema de Gestão e Agendamento de Clínica  
 **Responsável pelo artefato:** Jenifer Gomes (Pessoa 1 — Pessoas e governança)  
-**Status:** Rascunho alinhado ao [RACI](Matriz%20RACI%20Vida%20Mais.md), [Decisão 3](../planejamento/00-reuniao-de-decisoes.md) e [cronograma](../pessoa_3/04%20Cronograma.md)
+**Status:** Alinhado à revisão cruzada — [RACI](Matriz%20RACI%20Vida%20Mais.md), [Decisão 3](../planejamento/00-reuniao-de-decisoes.md), [cronograma](../pessoa_3/04%20Cronograma.md) e [Fluxo 10](../pessoa_4/Fluxo%20de%20Mudança.md)
 
 ## 1. Objetivo
 
@@ -54,7 +54,18 @@ Garantir **informação certa, pessoa certa, momento certo e canal adequado** (A
 - **[06 Riscos](../pessoa_4/Matriz%20de%20Riscos.md):** escalonamento quando comunicação falhar (ex.: R09 homologação).  
 - **[10 Fluxo de Mudanças](../pessoa_4/Fluxo%20de%20Mudança.md):** canal oficial de solicitação e comunicação pós-decisão.
 
-## 7. Pendências do grupo
+## 7. Registro e ferramentas
 
-- Confirmar ferramenta única de registro (log de mudanças + atas).  
-- Confirmar se aceite por entrega será centralizado em Ricardo ou delegado por área (RACI P-RACI-04).
+### 7.1 Ferramentas oficiais (compartilhadas com o Fluxo de Mudanças)
+
+| Uso | Ferramenta / canal | Responsável | Conteúdo |
+|---|---|---|---|
+| Solicitação de mudança / CR | E-mail **projetos-vida+@goofyjello.com.br** (caixa do projeto) | Camila abre ID no log | Pedido, anexos, classificação inicial |
+| Log de mudanças | Planilha **CR-LOG** (campos do [Fluxo 10](../pessoa_4/Fluxo%20de%20Mudança.md) §7) | Camila (R) | ID, impacto, decisão Ricardo, artefatos atualizados |
+| Atas e artefatos | Pasta **Teams/SharePoint** “Vida+ — Governança” | Camila | Artefatos 01–12, atas, evidências de aceite, homologação |
+| Status executivo | Reunião quinzenal + e-mail resumo | Camila → Ricardo | Desvios, riscos, decisões pendentes |
+
+### 7.2 Decisões fechadas
+
+- **Aceite de entrega:** centralizado em **Ricardo Salles** (sponsor); Paula, Fernanda e demais **R** por área consolidam evidências para Camila (P-RACI-04).
+- Mensagens em WhatsApp ou balcão **não** aprovam mudança de baseline — redirecionar ao canal formal (§7.1).

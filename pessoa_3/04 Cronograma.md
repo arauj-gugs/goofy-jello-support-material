@@ -2,7 +2,7 @@
 
 **Projeto:** Vida+ — Sistema de Gestão e Agendamento de Clínica  
 **Responsável pelo artefato:** Gustavo Vieira (Pessoa 3 — Prazo e custos)  
-**Status:** Rascunho para validação na revisão cruzada do grupo  
+**Status:** Alinhado ao [05 Custos](05%20Planejamento%20de%20Custos.md) (1.096 h WBS) e à janela de QA da Entrega 1 (§3.2)  
 **Base:** handoff `VidaMais - KT Projetos - Goofy Jello.pdf` (seções 5, 7, 8 e 9), [Decisão 4](../planejamento/00-reuniao-de-decisoes.md), [02 Escopo, Premissas e Restrições](../pessoa_2/02%20Escopo%20Premissas%20e%20Restricoes.md), [08 Product Backlog](../pessoa_2/08%20Product%20Backlog.md), [09 Roadmap](../pessoa_2/09%20Roadmap.md), [Matriz RACI](../pessoa_1/Matriz%20RACI%20Vida%20Mais.md) e Aula 08 — Planejamento e Gestão do Cronograma.
 
 ## 1. Objetivo
@@ -43,7 +43,7 @@ gantt
     section Recesso
     Recesso             :milestone, mR, 2026-12-24, 0d
     section Entregas
-    Entrega1            :milestone, m1, 2027-01-13, 0d
+    Entrega1            :milestone, m1, 2027-01-07, 0d
     ConstrucaoE2        :crit, a4, 2027-01-14, 2027-01-27
     Entrega2            :milestone, m2, 2027-02-03, 0d
   Homologacao         :a5, 2027-02-04, 2027-02-17
@@ -76,6 +76,17 @@ gantt
 | Retomada | Entrega 1 disponibilizada para aceite a partir de **07/01/2027** |
 
 A Entrega 1 é construída principalmente nas **semanas 1–4**, com **retomada pontual na semana 7** se pendências técnicas mínimas restarem após o recesso (sem mover o marco vendido).
+
+### 3.2 Janela de QA da Entrega 1
+
+| Fase | Semana (calendário) | Atividades | Objetivo |
+|---|---|---|---|
+| QA parcial | 4 (17–23/12) | A09 (parte das 42 h) | Testes sobre o incremento E1 já construído antes do recesso |
+| Recesso | 5–6 (24/12–06/01) | — | Sem desenvolvimento comprometido; GP acompanha premissas |
+| Fechamento + QA | 7 (07–13/01) | A05–A08†, A09 (restante), A10 | Correções pontuais pós-recesso, regressão interna e **disponibilização para aceite a partir de 07/01** |
+| Aceite cliente | 7 (07–13/01) | Marco M1 | Homologação PB-01 a PB-09; contagem contratual de 5 dias úteis a partir da disponibilização |
+
+O pacote **A09 (42 h)** reparte esforço entre as semanas **4** e **7**, coerente com a capacidade de Natália (§7) e com o [11 Plano de Qualidade](../pessoa_4/11%20Plano%20de%20Qualidade.md) §4. A **semana 7** é buffer operacional pós-recesso **dentro** do orçamento bottom-up (1.096 h), sem hora extra — decisão assumida pelo grupo na revisão cruzada.
 
 ## 4. Capacidade da equipe (premissa de cronograma)
 
@@ -121,21 +132,23 @@ PB referenciados conforme [08 Product Backlog](../pessoa_2/08%20Product%20Backlo
 | A05 | Backend — administração, segurança e cadastros | Rafael | 108 | 2–4, 7† | A03; P-04 | A06, A07 | PB-01–04 |
 | A06 | Backend — pacientes, agenda e encaixe (Z-03) | Rafael | 130 | 3–4, 7† | A05; P-07 | A07 | PB-05a–08 |
 | A07 | Frontend — telas internas Entrega 1 | Diego | 112 | 3–4, 7† | A03 (desenho) | A05, A06 | PB-01–08 (UI) |
-| A08 | Carga inicial essencial e validação de layout | Diego, Rafael | 32 | 4, 7 | A05, A06; P-02 | A09 | PB-09 |
+| A08 | Carga inicial essencial e validação de layout | Diego, Rafael | 36 | 4, 7 | A05, A06; P-02 | A09 | PB-09 |
 | A09 | QA — testes Entrega 1 e regressão interna | Natália | 42 | 4, 7 | A07, A08 | — | PB-01–09 |
-| A10 | Disponibilização e apoio ao aceite Entrega 1 (5 d.u.) | Camila, Natália | 24 | 7 | A09 | — | **M1** 13/01; PB-01–09 |
+| A10 | Disponibilização e apoio ao aceite Entrega 1 (5 d.u.) | Camila, Natália | 24 | 7 | A09 | — | **M1** 07–13/01; PB-01–09 |
 | — | *Recesso — sem atividades de construção* | — | 0 | 5–6 | A10‡ | — | — |
 | A11 | Backend/FS — recepção, atendimento, portal, notificações | Rafael, Diego | 132 | 8–9 | A10; P-06, P-03 | A12 | PB-10a–14, PB-13 |
 | A12 | Frontend — portal do paciente e recepção digital | Diego | 88 | 8–9 | A11 (APIs base) | A11 | PB-10a–12d |
 | A13 | Integração VidaFin (evento de atendimento) | Rafael, Diego | 40 | 9–10 | A11; P-01 | A14 | PB-15 |
-| A14 | QA — testes Entrega 2 | Natália | 44 | 9–10 | A12, A13 | — | PB-10a–15 |
+| A14 | QA — testes Entrega 2 | Natália | 46 | 9–10 | A12, A13 | — | PB-10a–15 |
 | A15 | Disponibilização e apoio ao aceite Entrega 2 | Camila, Natália | 20 | 10 | A14 | — | **M2** 03/02; PB-10a–15 |
 | A16 | Homologação integrada e correção de defeitos | Natália + dev | 58 | 11–12 | A15 | — | Anexo C |
-| A17 | Preparação produção, pipelines e treinamento | Igor, Camila | 32 | 13 | A16 | A18 (início) | Ambiente prod. |
-| A18 | Go-live assistido e hypercare inicial | Camila + equipe | 28 | 14 | A17 | — | **M3** 03/03 |
+| A17 | Preparação produção, pipelines e treinamento | Igor, Camila | 36 | 13 | A16 | A18 (início) | Ambiente prod. |
+| A18 | Go-live assistido e hypercare inicial | Camila + equipe | 30 | 14 | A17 | — | **M3** 03/03 |
 
 † Semana 7: apenas **fechamento técnico** se necessário após recesso (buffer operacional, não marco novo).  
 ‡ Durante o recesso, Camila acompanha status das premissas P-01 a P-08 (sem horas de dev).
+
+**Total WBS (A01–A18):** **1.096 h** — idêntico ao §5.1 do [05 Planejamento de Custos](05%20Planejamento%20de%20Custos.md).
 
 ### 6.1 Mapa PB × atividade de construção
 
@@ -210,8 +223,8 @@ A01 → A03 → A05 → A06 → (recesso) → A09 → A10 [M1 Entrega 1]
 
 Itens **fora** do go-live (Z-01, Z-02, Z-07; operação Indaiatuba Z-06) **não** têm atividades com data neste cronograma.
 
-## 10. Pendências para validação do grupo
+## 10. Decisões registradas na revisão cruzada
 
-- Confirmar se a necessidade de **semana 7** para fechamento técnico da E1 após o recesso é aceitável sem horas extras além do plano de custos.
-- Validar com a Pessoa 4 se a mitigação do **R13** (Diego absorvendo APIs) está refletida nas alocações de A11–A13.
-- Após aceite deste cronograma, confrontar marco a marco com o [09 Roadmap](../pessoa_2/09%20Roadmap.md) (sem alterar datas vendidas).
+- **Semana 7 / QA E1:** buffer pós-recesso aceito dentro das **1.096 h** do plano (§3.2); sem hora extra.
+- **R13:** mitigação com Diego em A11–A13 refletida nas alocações semanais (§7) e no [05 Custos](05%20Planejamento%20de%20Custos.md) §5.4.
+- **Marcos:** confrontado marco a marco com o [09 Roadmap](../pessoa_2/09%20Roadmap.md); datas vendidas (Decisão 4) inalteradas.

@@ -2,7 +2,7 @@
 
 **Projeto:** Vida+ — Sistema de Gestão e Agendamento de Clínica  
 **Responsável pelo artefato:** Pessoa 2 — Escopo e produto  
-**Status:** Rascunho inicial para validação na reunião do grupo  
+**Status:** Versão consolidada — revisão cruzada #26  
 **Base:** handoff `VidaMais - KT Projetos - Goofy Jello.pdf` (seções 6.2, 6.3, 6.4, 6.5 e 9; Anexo C), [02 Escopo, Premissas e Restrições](02%20Escopo%20Premissas%20e%20Restricoes.md), [Decisão 2](../planejamento/00-reuniao-de-decisoes.md) e definições das Aulas 18, 19 e 20.
 
 ## 1. Objetivo

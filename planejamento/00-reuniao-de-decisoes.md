@@ -29,10 +29,10 @@ Fonte: `VidaMais - KT Projetos - Goofy Jello.pdf`.
 
 Proposta: **híbrida**. Linha de base preditiva (escopo, prazo e preço contratados) e execução ágil dentro dela: backlog priorizado, duas entregas incrementais já vendidas, roadmap. O quadro Kanban é a ferramenta de acompanhamento do fluxo na execução.
 
-- [ ] Aceita como está
+- [x] Aceita como está
 - [ ] Ajuste: ______
 
-Justificativa para a defesa: ______
+Justificativa para a defesa: combina previsibilidade contratual (marcos e preço fixos) com flexibilidade de priorização dentro do backlog vendido, adequada ao handoff com duas entregas incrementais.
 
 ## Decisão 2 — Fronteira do primeiro go-live
 
@@ -71,7 +71,7 @@ Proposta:
 
 Regra: mudança que mexe em escopo, prazo, custo ou integração passa pelo Fluxo de Mudanças (artefato 10), e conversa de WhatsApp não aprova nada.
 
-- [ ] Aceita como está
+- [x] Aceita como está
 - [ ] Ajuste: ______
 
 ## Decisão 4 — Marcos (já vendidos, seção 9)
@@ -81,7 +81,7 @@ Regra: mudança que mexe em escopo, prazo, custo ou integração passa pelo Flux
 | Kick-off | 26/11/2026 |
 | Descoberta e desenho funcional | 26/11 a 16/12/2026 |
 | Protótipo | 17 a 23/12/2026 |
-| Recesso | ______ (o grupo define) |
+| Recesso | **24/12/2026 a 06/01/2027** (sem construção comprometida) |
 | Entrega 1 — cadastros, configuração, agenda | 07 a 13/01/2027 |
 | Entrega 2 — portal, recepção, notificações, indicadores | 28/01 a 03/02/2027 |
 | Homologação integrada | 04 a 17/02/2027 |
@@ -108,7 +108,17 @@ Conclusão: o grupo vai ter que priorizar escopo ou realocar horas. Esse é exat
 4. Pessoa 4 parte das Premissas, do Cronograma e do RACI para Riscos, Mudanças, Qualidade e Go-live.
 5. Revisão cruzada: cada funcionalidade do go-live aparece em Escopo → Backlog → Roadmap → Cronograma → Custos → Riscos → Qualidade → Go-live.
 
+## Kick-off fictício — registros assumidos (case acadêmico)
+
+Registrado em **26/11/2026** para fechar coerência dos artefatos sem cliente real:
+
+1. **P-08 — LGPD:** função **Encarregado(a) de Dados e Privacidade (Vida+)** formalmente designada no kick-off (sem nome individual no handoff). **Ricardo Salles** arquiva a decisão; **contato técnico inicial: Marcelo Viana** até a Vida+ publicar o titular da função.
+2. **Recepção:** **quatro líderes de recepção** (um por **unidade em operação 1–4**), roster mantido por **Paula Ribeiro**, indicados no kick-off para homologação e treinamento (nomes não constam no handoff público).
+3. **Premissas P-01 a P-07:** permanecem como condições contratuais com datas-limite no planejamento (não são “fechadas” no kick-off).
+
+**Contingências ainda relevantes na defesa:** se **P-01** não for atendida até 16/12/2026, **PB-15** sai da baseline.
+
 ## Registro
 
-Data da reunião: ______
-Decisões que ainda ficaram abertas: ______
+Data da reunião: **26/11/2026** (kick-off + revisão cruzada do grupo)  
+Decisões em aberto (documentação): **nenhuma** — ver bloco acima e [revisao-cruzada-status.md](revisao-cruzada-status.md). **Fechado:** governança Ricardo/Camila, VidaFin/mensageria (papéis internos), ferramentas CR-LOG/Teams, fronteira Z-01–Z-07, P-08 (função) e líderes de recepção por unidade.

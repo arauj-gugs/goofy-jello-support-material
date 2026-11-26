@@ -2,7 +2,7 @@
 
 **Projeto:** Vida+ — Sistema de Gestão e Agendamento de Clínica  
 **Responsável pelo artefato:** Luís Gabriel (Pessoa 4 — Controle e go-live)  
-**Status:** Rascunho alinhado à semana 13–14 do [cronograma](../pessoa_3/04%20Cronograma.md) e [Decisão 2](../planejamento/00-reuniao-de-decisoes.md) (Z-06 Indaiatuba fora da operação em 03/03/2027)
+**Status:** Versão consolidada — revisão cruzada #26; semanas 13–14 do [cronograma](../pessoa_3/04%20Cronograma.md); [Decisão 2](../planejamento/00-reuniao-de-decisoes.md) (Z-06 Indaiatuba fora em 03/03/2027)
 
 ## 1. Objetivo
 
@@ -34,11 +34,11 @@ Planejar a **entrada em produção em 03/03/2027** nas **quatro unidades já em 
 | Defeitos bloqueadores | Zero conhecidos | Qualquer bloqueador em fluxo vendido |
 | Homologação integrada | Aceite registrado ou tácito expirado sem inconformidade fundada | Inconformidade bloqueante aberta |
 | Ambiente produção | Acessível e monitorado | Falha infra sem contorno |
-| P-08 LGPD | Responsável da Vida+ formalmente indicado; regras de acesso/uso/retenção validadas; dados e controles de produção aprovados | Responsável não indicado ou dados reais sem governança validada |
+| P-08 LGPD | Função **Encarregado(a) de Dados e Privacidade (Vida+)** registrada no kick-off; regras de acesso/uso/retenção validadas com Marcelo + função; controles de produção aprovados | Função não registrada ou dados reais sem governança validada |
 | P-01 VidaFin | Integração homologada se a premissa foi atendida; se não foi, PB-15 formalmente retirado da baseline e limitação comunicada | PB-15 tratado como obrigatório sem documentação, credenciais e ambiente disponíveis |
 | Equipe plantão | Escala Goofy + pontos focais Vida+ confirmados | Indisponibilidade crítica |
 
-**Quem decide:** **Ricardo Salles (A* provisório)** no go-live conforme o [RACI](../pessoa_1/Matriz%20RACI%20Vida%20Mais.md); a Vida+ precisa ratificar formalmente essa autoridade. **Camila Rocha (R)** consolida evidências e recomenda go/no-go; **Marcelo (R)** confirma condições de TI; **Paula (R)** confirma prontidão operacional. A equipe Goofy Jello apoia implantação, testes e ambiente. Camila também depende da confirmação formal de sua designação como GP.
+**Quem decide:** **Ricardo Salles (A)** no go-live conforme o [RACI](../pessoa_1/Matriz%20RACI%20Vida%20Mais.md). **Camila Rocha (R / GP)** consolida evidências e recomenda go/no-go; **Marcelo (R)** confirma condições de TI; **Paula (R)** confirma prontidão operacional. A equipe Goofy Jello apoia implantação, testes e ambiente.
 
 ## 5. Plano de retorno (rollback / contorno)
 
@@ -47,6 +47,8 @@ Planejar a **entrada em produção em 03/03/2027** nas **quatro unidades já em 
 3. Comunicação imediata às unidades e a Ricardo via [plano de comunicação](../pessoa_1/07%20Plano%20de%20Comunicação.md).
 
 ## 6. Plantão — semana do go-live
+
+**Comunicação de incidentes:** canal **Teams — equipe projeto**; triagem **Natália** (defeito × mudança); escalonamento **Camila → Ricardo** conforme [07 Comunicação](../pessoa_1/07%20Plano%20de%20Comunicação.md).
 
 | Papel | Pessoa | Cobertura |
 |---|---|---|
