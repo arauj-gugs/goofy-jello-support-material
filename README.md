@@ -8,7 +8,7 @@ Deck HTML no estilo das aulas do professor (navegação: setas, teclado ou botõ
 
 | Onde | Link |
 |------|------|
-| **GitHub Pages** | https://gustavo-vieira-unasp.github.io/goofy-jello-support-material/ |
+| **GitHub Pages** | https://arauj-gugs.github.io/goofy-jello-support-material/ |
 | Local | abra [`index.html`](index.html) na raiz (use um servidor estático para carregar `assets/` corretamente) |
 
 ### Publicar no GitHub Pages
