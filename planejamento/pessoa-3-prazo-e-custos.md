@@ -1,6 +1,6 @@
 # Pessoa 3 — Prazo e custos
 
-Integrante: ______
+Integrante: Gustavo Vieira (artefatos em [`pessoa_3/`](../pessoa_3/))
 
 ## Seus artefatos
 
@@ -49,25 +49,25 @@ Você precisa mostrar como o plano cabe em R$ 158.000. As alavancas são: realoc
 
 ## 04 Cronograma — o que precisa ter
 
-- [ ] Atividades derivadas do backlog e das fases (descoberta, desenho, protótipo, construção E1, construção E2, testes, homologação, preparação, go-live, estabilização).
-- [ ] Predecessoras e paralelismos (ex.: UX junto da descoberta, frontend em paralelo ao backend depois do desenho funcional).
-- [ ] Marcos nas datas vendidas (Decisão 4).
-- [ ] Recesso de fim de ano tratado explicitamente.
-- [ ] Capacidade real: Natália dividida com sustentação, Igor sob demanda e agrupado, Bruno sem dedicação integral, Rafael com teto de 24 h.
-- [ ] Caminho crítico identificado.
-- [ ] Dependências do cliente como atividades com dono (API VidaFin, CSV, salas, regras).
-- [ ] Representação visual (Gantt ou tabela por semana).
+- [x] Atividades derivadas do backlog e das fases (descoberta, desenho, protótipo, construção E1, construção E2, testes, homologação, preparação, go-live, estabilização).
+- [x] Predecessoras e paralelismos (ex.: UX junto da descoberta, frontend em paralelo ao backend depois do desenho funcional).
+- [x] Marcos nas datas vendidas (Decisão 4).
+- [x] Recesso de fim de ano tratado explicitamente.
+- [x] Capacidade real: Natália dividida com sustentação, Igor sob demanda e agrupado, Bruno sem dedicação integral, Rafael com teto de 24 h.
+- [x] Caminho crítico identificado.
+- [x] Dependências do cliente como atividades com dono (API VidaFin, CSV, salas, regras).
+- [x] Representação visual (Gantt ou tabela por semana).
 
 ## 05 Planejamento de Custos — o que precisa ter
 
-- [ ] Bottom-up: atividade, responsável, horas, R$/h, custo.
-- [ ] Comparação com a análoga (1.180 h da pré-venda).
-- [ ] Total de mão de obra comparado com o teto de R$ 158.000.
-- [ ] Contingência: decidir se cabe e de onde sai. O PDF não informa reserva gerencial.
-- [ ] Custos excluídos listados como "responsabilidade do cliente" e fora da conta.
-- [ ] Linha separada: entrada de caixa por parcela (assinatura, desenho funcional, homologação, go-live).
-- [ ] Margem resultante (receita menos custo direto).
-- [ ] Exemplo de impacto de uma mudança, no formato da Aula 09.2.
+- [x] Bottom-up: atividade, responsável, horas, R$/h, custo.
+- [x] Comparação com a análoga (1.180 h da pré-venda).
+- [x] Total de mão de obra comparado com o teto de R$ 158.000.
+- [x] Contingência: decidir se cabe e de onde sai. O PDF não informa reserva gerencial.
+- [x] Custos excluídos listados como "responsabilidade do cliente" e fora da conta.
+- [x] Linha separada: entrada de caixa por parcela (assinatura, desenho funcional, homologação, go-live).
+- [x] Margem resultante (receita menos custo direto).
+- [x] Exemplo de impacto de uma mudança, no formato da Aula 09.2.
 
 ## Depende de / alimenta
 
@@ -77,6 +77,6 @@ Você precisa mostrar como o plano cabe em R$ 158.000. As alavancas são: realoc
 ## Perguntas que a banca pode fazer
 
 - Qual é o caminho crítico? E se o Rafael atrasar?
-- Como vocês chegaram em R$ ______ se a pré-venda estimou 1.180 h?
+- Como vocês chegaram em R$ 151.550 se a pré-venda estimou 1.180 h?
 - O que acontece com o prazo no recesso?
 - Onde está a contingência?

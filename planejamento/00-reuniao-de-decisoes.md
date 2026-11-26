@@ -8,10 +8,10 @@ Participantes: os 4 integrantes. Duração sugerida: 1h. Resultado: esta folha p
 
 | Seat | Integrante | Artefatos |
 |---|---|---|
-| Pessoa 1 — Pessoas e governança | ______ | 01 Stakeholders, 03 RACI, 07 Comunicação |
-| Pessoa 2 — Escopo e produto | ______ | 02 Escopo/Premissas/Restrições, 08 Backlog, 09 Roadmap |
-| Pessoa 3 — Prazo e dinheiro | ______ | 04 Cronograma, 05 Custos |
-| Pessoa 4 — Controle e go-live | ______ | 06 Riscos, 10 Mudanças, 11 Qualidade, 12 Go-live |
+| Pessoa 1 — Pessoas e governança | Jenifer Gomes | 01 Stakeholders, 03 RACI, 07 Comunicação |
+| Pessoa 2 — Escopo e produto | Philipe Gonçalves | 02 Escopo/Premissas/Restrições, 08 Backlog, 09 Roadmap |
+| Pessoa 3 — Prazo e dinheiro | Gustavo Vieira | 04 Cronograma, 05 Custos |
+| Pessoa 4 — Controle e go-live | Luís Gabriel | 06 Riscos, 10 Mudanças, 11 Qualidade, 12 Go-live |
 
 Todos precisam conseguir defender o plano inteiro na apresentação.
 
