@@ -224,16 +224,22 @@ Legenda: **R** refinamento · **D** desenho · **P** protótipo · **C** constru
 
 - **[08 Product Backlog](08%20Product%20Backlog.md):** cartões PB-01 a PB-15 (com sub-IDs) cobrem o go-live; ordem e fronteira inalteradas neste roadmap.
 - **[02 Escopo, Premissas e Restrições](02%20Escopo%20Premissas%20e%20Restricoes.md):** marcos da §4 (escopo do projeto) e datas da §7.1.
-- **Pessoa 3 — [04 Cronograma](../planejamento/pessoa-3-prazo-e-custos.md):** deve derivar atividades, predecessoras, capacidade (recesso, caminho crítico do backend) e **mesmas datas** da tabela §3; o vão 14–27/01 é onde cabem horas de PB-10a a PB-15.
-- **Pessoa 4:** premissas com data (§4.1) e compressão pós-recesso alimentam riscos (ex. R12 na matriz preliminar).
+- **Pessoa 3 — [04 Cronograma](../pessoa_3/04%20Cronograma.md):** atividades A01–A18, predecessoras, capacidade semanal, recesso **24/12/2026–06/01/2027**, caminho crítico (backend Rafael + janela E2 **14–27/01/2027**) e **mesmas datas** da tabela §3; o vão 14–27/01 concentra horas de PB-10a a PB-15. Índice do guia: [planejamento/pessoa-3-prazo-e-custos.md](../planejamento/pessoa-3-prazo-e-custos.md).
+- **Pessoa 3 — [05 Planejamento de Custos](../pessoa_3/05%20Planejamento%20de%20Custos.md):** plano bottom-up **1.096 h / R$ 151.550** (abaixo do teto **R$ 158.000**); referência analógica 1.180 h mantida para comparação, não como baseline adotada.
+- **Pessoa 4:** premissas com data (§4.1) e compressão pós-recesso alimentam riscos (ex. R12–R14 na [Matriz de Riscos](../pessoa_4/Matriz%20de%20Riscos.md), atualizada na revisão cruzada).
 - **Pessoa 1:** validações e comunicação no recesso e nas janelas de aceite.
 - **Revisão cruzada:** cada capacidade do go-live deve aparecer em Escopo → Backlog → **Roadmap** → Cronograma → Custos → Riscos → Qualidade → Go-live.
 
 ## 9. Pendências para validação do grupo
 
-- Confirmar período exato do **recesso** (proposta 24/12/2026–06/01/2027) na reunião de decisões.
-- Validar se a alocação de construção da Entrega 1 nas semanas 1–4 (§3.1) é factível com o teto de custo — decisão conjunta com a Pessoa 3.
+### Resolvido no plano publicado (revisão cruzada — conferir na reunião)
+
+- **Recesso:** **24/12/2026–06/01/2027** sem construção comprometida — [04 Cronograma](../pessoa_3/04%20Cronograma.md) §3 e capacidade semanal.
+- **Entrega 1 nas semanas 1–4 (§3.1) vs teto de custo:** alocação factível no bottom-up (**R$ 151.550**) — [05 §5–6](../pessoa_3/05%20Planejamento%20de%20Custos.md); E1 combina semanas 1–4 + retomada pós-recesso conforme WBS (A05–A06 e paralelos), sem alterar marcos desta tabela.
+- **Confronto marco a marco com o cronograma:** feito; janelas da Decisão 4 permanecem; paralelismo E1 (construção antecipada + retomada pós-recesso) documentado no 04, não exige mudança de datas vendidas aqui.
+
+### Ainda em aberto
+
 - Se **P-01** não se confirmar, retirar PB-15 do incremento do go-live mantendo o marco de **03/03/2027** (premissa artefato 02).
-- Após publicação do cronograma da Pessoa 3, confrontar marco a marco com esta tabela e ajustar **texto explicativo** aqui se houver paralelismo não óbvio (sem mudar datas vendidas).
 
 **Pronto quando (issue #13):** o roadmap estiver **coerente com o backlog** e com o **cronograma da Pessoa 3** — isto é, mesmas janelas da Decisão 4, todos os PB do go-live alocados a fases, recesso visível, itens adiados sem data, e a Pessoa 3 conseguir encaixar atividades nas semanas deste arquivo sem contradição.
