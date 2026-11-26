@@ -164,7 +164,7 @@ Limites do projeto classificados conforme Aula 07. Alteração de escopo macro, 
 - **Pessoa 3:** escopo do projeto e marcos alimentam cronograma e custos; premissas com data alimentam dependências do cliente.  
 - **Pessoa 4:** premissas P-01 a P-08 e decisões Z-01 a Z-07 alimentam riscos, qualidade e go-live.  
 - **Pessoa 1:** validações de regras clínicas e operacionais (Dra. Helena, Paula) ligam-se a P-05 e P-06.  
-- **08 Backlog** ([08 Product Backlog](08%20Product%20Backlog.md)) / **09 Roadmap:** apenas itens **dentro** e habilitadores; lista “Depois / CR” com Z-01, Z-02 e Z-07.  
+- **08 Backlog** ([08 Product Backlog](08%20Product%20Backlog.md)) / **09 Roadmap** ([09 Roadmap](09%20Roadmap.md)): apenas itens **dentro** e habilitadores; lista “Depois / CR” com Z-01, Z-02 e Z-07.  
 
 ## 9. Pendências para validação do grupo
 

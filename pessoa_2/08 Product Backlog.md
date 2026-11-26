@@ -351,7 +351,7 @@ Exclusões comerciais permanentes (app nativo, TISS, telemedicina, pagamento onl
 - **Pessoa 3:** transformar cada cartão em atividades, horas e marcos das Entregas 1 e 2 (seção 9 do PDF).
 - **Pessoa 4:** critérios de aceite alimentam plano de qualidade (6.5, Anexo C); bloqueios P-01/P-02 ligam-se à matriz de riscos.
 - **Pessoa 1:** validações clínicas e operacionais nas dependências P-05, P-06 e perfis P-04.
-- **Artefato 09 Roadmap:** agrupar PB-01 a PB-15 nas janelas Descoberta, Protótipo, Entrega 1, Entrega 2, Homologação, Preparação, Go-live e Estabilização.
+- **Artefato 09 Roadmap:** [09 Roadmap](09%20Roadmap.md) — PB-01 a PB-15 nas janelas Descoberta, Protótipo, Entrega 1, Entrega 2, Homologação, Preparação, Go-live e Estabilização.
 
 **Pendências de formato (Etapa 3 do plano de ensino):** cartões PB-03, PB-05, PB-10 e PB-12 concentram vários resultados; após a aula de histórias de usuário o grupo pode **fatiar** em itens menores **sem** alterar ordem nem fronteira já publicada aqui.
 
