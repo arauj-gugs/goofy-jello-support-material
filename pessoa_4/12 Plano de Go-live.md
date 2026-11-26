@@ -12,7 +12,7 @@ Planejar a **entrada em produção em 03/03/2027** nas **quatro unidades já em 
 
 | Incluído em 03/03/2027 | Fora desta data (Decisão 2) |
 |---|---|
-| PB-01 a PB-15 aceitos + homologação integrada | Operação plena **Indaiatuba** (Z-06); apenas cadastro estrutural se existir |
+| PB-01 a PB-14 aceitos + homologação integrada; PB-15/VidaFin incluído somente se P-01 for atendida | Operação plena **Indaiatuba** (Z-06); apenas cadastro estrutural se existir |
 | Quatro unidades atuais em **onda única** (decisão do grupo: simultâneo com treinamento reforçado) | WhatsApp (Z-01), reagendamento paciente (Z-02) |
 
 ## 3. Checklist — semana 13 (18–24/02/2027)
@@ -34,14 +34,15 @@ Planejar a **entrada em produção em 03/03/2027** nas **quatro unidades já em 
 | Defeitos bloqueadores | Zero conhecidos | Qualquer bloqueador em fluxo vendido |
 | Homologação integrada | Aceite registrado ou tácito expirado sem inconformidade fundada | Inconformidade bloqueante aberta |
 | Ambiente produção | Acessível e monitorado | Falha infra sem contorno |
-| P-08 LGPD | Responsável indicado **ou** controle técnico documentado e restrito | Dados reais sem governança |
+| P-08 LGPD | Responsável da Vida+ formalmente indicado; regras de acesso/uso/retenção validadas; dados e controles de produção aprovados | Responsável não indicado ou dados reais sem governança validada |
+| P-01 VidaFin | Integração homologada se a premissa foi atendida; se não foi, PB-15 formalmente retirado da baseline e limitação comunicada | PB-15 tratado como obrigatório sem documentação, credenciais e ambiente disponíveis |
 | Equipe plantão | Escala Goofy + pontos focais Vida+ confirmados | Indisponibilidade crítica |
 
-**Quem decide:** **Ricardo Salles** (sponsor, A no go-live no [RACI](../pessoa_1/Matriz%20RACI%20Vida%20Mais.md)); **Camila Rocha** recomenda go/no-go técnico-operacional; **Marcelo** confirma condições de TI.
+**Quem decide:** **Ricardo Salles (A* provisório)** no go-live conforme o [RACI](../pessoa_1/Matriz%20RACI%20Vida%20Mais.md); a Vida+ precisa ratificar formalmente essa autoridade. **Camila Rocha (R)** consolida evidências e recomenda go/no-go; **Marcelo (R)** confirma condições de TI; **Paula (R)** confirma prontidão operacional. A equipe Goofy Jello apoia implantação, testes e ambiente. Camila também depende da confirmação formal de sua designação como GP.
 
 ## 5. Plano de retorno (rollback / contorno)
 
-1. **Rollback de aplicação:** Igor restaura versão anterior em produção se falha crítica na abertura (backup validado na semana 13).  
+1. **Rollback de aplicação:** Igor restaura versão anterior em produção se falha crítica na abertura (backup validado na semana 13); executar procedimento ensaiado e preservar transações/logs para reconciliação.
 2. **Contorno operacional:** retorno temporário a procedimento manual acordado com Paula por unidade (máx. 48h) enquanto correção — registrado como incidente, não como mudança de escopo.  
 3. Comunicação imediata às unidades e a Ricardo via [plano de comunicação](../pessoa_1/07%20Plano%20de%20Comunicação.md).
 
@@ -61,7 +62,7 @@ Planejar a **entrada em produção em 03/03/2027** nas **quatro unidades já em 
 
 - Período: **04/03–02/04/2027** (PDF 7.4 / [04 Cronograma](../pessoa_3/04%20Cronograma.md)).  
 - Escopo: **defeitos** do que foi entregue; melhorias → [Fluxo de Mudanças](Fluxo%20de%20Mudança.md).  
-- Capacidade: sem horas adicionais no [05 Custos](../pessoa_3/05%20Planejamento%20de%20Custos.md) — priorizar correções no Slack da sustentação acordado.
+- Capacidade: sem horas adicionais no [05 Custos](../pessoa_3/05%20Planejamento%20de%20Custos.md) — priorizar defeitos no canal de suporte acordado com cliente; evoluções seguem CR.
 
 ## 8. Sustentação pós-contrato
 
@@ -69,5 +70,5 @@ Fora do escopo deste projeto (handoff); passagem documentada para contrato de su
 
 ## 9. Coerência
 
-- Riscos R09, R16 e R12 no [06 Riscos](Matriz%20de%20Riscos.md).  
+- Riscos R09, R16, R12, R01 (dependência VidaFin) e R08 (LGPD) no [06 Riscos](Matriz%20de%20Riscos.md).
 - Qualidade e aceite no [11 Plano de Qualidade](11%20Plano%20de%20Qualidade.md).

@@ -2,7 +2,7 @@
 
 **Projeto:** Vida+ — Sistema de Gestão e Agendamento de Clínica  
 **Responsável pelo artefato:** Luís Gabriel (Pessoa 4 — Controle e go-live)  
-**Status:** Versão para validação — alinhada à [Matriz RACI](../pessoa_1/Matriz%20RACI%20Vida%20Mais.md) (Ricardo A* em mudança; Camila R)
+**Status:** Revisão cruzada — alinhado à [Matriz RACI](../pessoa_1/Matriz%20RACI%20Vida%20Mais.md), às decisões Z-01–Z-07 do artefato 02 e ao impacto indicativo do [05 Custos](../pessoa_3/05%20Planejamento%20de%20Custos.md); Ricardo A* em mudança, Camila R
 
 ## Objetivo e regra
 
@@ -61,13 +61,13 @@ O RACI atual não define um aprovador alternativo por baixo/médio/alto impacto:
 
 ## Exemplo resolvido — confirmação por WhatsApp
 
-**Pedido:** “Confirmar consultas por WhatsApp.” O handoff registra preferência do cliente, mas informa que canal, fornecedor, credenciais e custos precisam ser definidos; a proposta prevê notificações por canais suportados e exclui serviços de mensageria/WhatsApp Business/API do valor contratado.
+**Pedido:** “Confirmar consultas por WhatsApp.” O handoff registra a preferência, mas canal, fornecedor, credenciais e custos precisam ser definidos; a proposta exclui serviços de mensageria/WhatsApp Business/API do valor contratado. A Decisão 2 do artefato 02 registra Z-01 como **Depois/CR** e define e-mail como baseline.
 
 1. Registrar como solicitação e localizar o requisito aprovado de notificações.
-2. Verificar com Juliana Reis e Marcelo Viana se o escopo detalhado e a decisão do grupo incluem especificamente WhatsApp. Preferência anotada na negociação, sozinha, não comprova aprovação do canal.
-3. Analisar disponibilidade técnica, fornecedor, conta/credenciais, custo transacional pago pelo cliente, segurança/dados, prazo, testes e alternativa por e-mail ou canal suportado.
-4. Se o canal e sua integração não estiverem aprovados na baseline, classificar como mudança/dependência, recomendar aceitar, adiar ou rejeitar e submeter a Ricardo Salles, A provisório no RACI. Camila registra e coordena; análises e consultas seguem os participantes do RACI. Não iniciar trabalho nem assumir custo sem aprovação formal.
-5. Comunicar decisão; se aprovada, documentar fornecedor, limites e responsabilidade de custos, atualizar escopo/backlog, cronograma, custos, riscos e cenários de qualidade; depois implementar e validar disparo e conteúdo.
+2. Conferir a baseline: notificações por e-mail estão dentro; WhatsApp está adiado (Z-01) e não é aprovado pela nota informal.
+3. Fazer análise indicativa: o artefato 05 estima 80 h adicionais de equipe (BA 16 h, backend 24 h, full stack 20 h, QA 12 h e DevOps 8 h), cerca de **R$ 11.200** de mão de obra, mais custo do serviço de mensageria pago pelo cliente e possível impacto de **1 a 2 semanas** no caminho crítico. O total estimado ficaria em cerca de **R$ 162.750**, acima do teto interno de R$ 158.000.
+4. Recomendação: manter Z-01 em Depois/CR e usar e-mail no primeiro go-live. Se o cliente insistir em incluir WhatsApp, registrar Change Request e submeter a Ricardo Salles (A* provisório); Camila registra e coordena a análise. Não iniciar trabalho nem assumir custos sem aprovação formal e atualização do baseline.
+5. Comunicar o adiamento e a alternativa de e-mail; se houver aprovação futura, documentar fornecedor, credenciais, responsabilidade pelo custo transacional, escopo e prazo, atualizar escopo/backlog, cronograma, custos, riscos e cenários de qualidade; depois implementar e validar disparo e conteúdo.
 
 ## Registro de mudanças
 
@@ -78,4 +78,5 @@ Manter um log compartilhado com: ID, solicitação, solicitante/data, requisito 
 - Confirmar formalmente Ricardo Salles como autoridade final de aprovação; o RACI o marca A provisório e não define níveis alternativos por impacto.
 - Definir canal oficial para solicitações e ferramenta/log compartilhado.
 - PO na Decisão 3: **Bruno Ferraz** (prioridade backlog), validando Paula e Dra. Helena — coerente com RACI §6.
+- Confirmar que os valores ilustrativos de horas/custo do exemplo seguem o artefato 05 vigente ao aprovar eventual CR.
 - Alinhar processo de defeitos e aceite com o plano de qualidade e a cláusula contratual de homologação/garantia.
